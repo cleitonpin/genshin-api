@@ -1,0 +1,130 @@
+{
+	"gadgets": [
+		{
+			"name": "Adepti Seeker's Stove",
+			"effect": "A portable stove that can be used to access Cooking when outside of combat.",
+			"crafting_type": "Forging",
+			"source": "Reach Reputation Level 5 in Liyue",
+			"reusable": false
+		},
+		{
+			"name": "Anemo Treasure Compass",
+			"effect": "A compass that can be used in Mondstadt to search for nearby chests. If a chest is nearby, then it goes on cooldown for 30 seconds, otherwise, 5 seconds.",
+			"crafting_type": "Forging",
+			"source": "Reach Reputation Level 6 in Mondstadt",
+			"reusable": true
+		},
+		{
+			"name": "Anemoculus Resonance Stone",
+			"effect": "A stone that can be used in Mondstadt to search for nearby Anemoculi.",
+			"crafting_type": "Crafting",
+			"source": "Reach Reputation Level 2 in Mondstadt",
+			"reusable": false
+		},
+		{
+			"name": "Condensed Resin",
+			"effect": "Can be used to revitalize Ley Line Blossoms from Ley Line Outcrops or Petrified Trees in Domains to receive 2 sets of rewards at one time.",
+			"crafting_type": "Crafting",
+			"source": "Reach Reputation Level 3 in Liyue",
+			"reusable": false
+		},
+		{
+			"name": "Geo Treasure Compass",
+			"effect": "A compass that can be used in Liyue to search for nearby chest. If a chest is nearby, then it goes on cooldown for 30 seconds, otherwise, 5 seconds.",
+			"crafting_type": "Forging",
+			"source": "Reach Reputation Level 6 in Liyue",
+			"reusable": true
+		},
+		{
+			"name": "Geoculus Resonance Stone",
+			"effect": "A stone that can be used in Liyue to search for nearby Geoculi.",
+			"crafting_type": "Crafting",
+			"source": "Reach Reputation Level 2 in Liyue",
+			"reusable": false
+		},
+		{
+			"name": "Kamera",
+			"effect": "Allows pictures to be taken anywhere, even while fighting. Has no cooldown period.",
+			"crafting_type": null,
+			"source": "Reward from Snapshots World Quest",
+			"reusable": true
+		},
+		{
+			"name": "Kurious Kamera",
+			"effect": "Allows event-specific pictures to be taken anywhere. Has no cooldown period.",
+			"crafting_type": null,
+			"source": "Reward from Kurious Kamera World Quest",
+			"reusable": true
+		},
+		{
+			"name": "Mini Seelie: Curcuma",
+			"effect": "Commemorative gadget.",
+			"crafting_type": null,
+			"source": "Lost Riches Event",
+			"reusable": true
+		},
+		{
+			"name": "Mini Seelie: Dayflower",
+			"effect": "Commemorative gadget.",
+			"crafting_type": null,
+			"source": "Lost Riches Event",
+			"reusable": true
+		},
+		{
+			"name": "Mini Seelie: Rosé",
+			"effect": "Commemorative gadget.",
+			"crafting_type": null,
+			"source": "Lost Riches Event",
+			"reusable": true
+		},
+		{
+			"name": "NRE (Menu 30)",
+			"effect": "A bag with two slots, one for HP recovery food and the other for Revival type food, accessible from hotbar.",
+			"crafting_type": "Forging",
+			"source": "Reach Reputation Level 5 in Mondstadt",
+			"reusable": true
+		},
+		{
+			"name": "Parametric Transformer",
+			"effect": "A device that can transmute up to 150 materials placed within to convert it into some other material. Use Elemental Attacks to generate energy for the transmutation. It has a cooldown of 7 days.",
+			"crafting_type": null,
+			"source": "Reward from Tianqiu Treasure Trail World Quest",
+			"reusable": true
+		},
+		{
+			"name": "Portable Waypoint",
+			"effect": "Creates a temporary waypoint at current location for 7 days with a limit of 1 in the world.",
+			"crafting_type": "Crafting",
+			"source": "Reach Reputation Level 6 in Mondstadt",
+			"reusable": false
+		},
+		{
+			"name": "Special Kamera",
+			"effect": "Allows event-specific pictures to be taken anywhere. Has no cooldown period.",
+			"crafting_type": null,
+			"source": "Reward from Perfect Shot World Quest",
+			"reusable": true
+		},
+		{
+			"name": "Treasure-Seeking Seelie",
+			"effect": "Reveals the presence of Iron Coins.",
+			"crafting_type": null,
+			"source": "Lost Riches Event",
+			"reusable": true
+		},
+		{
+			"name": "Warming Bottle",
+			"effect": "Emits heat for a short period over a small area to diminish the effect of Sheer Cold.",
+			"crafting_type": "Forging",
+			"source": "Reach Frostbearing Tree Offering Level 4",
+			"reusable": false
+		},
+		{
+			"name": "Wind Catcher",
+			"effect": "A bottle that is able to hold up to 5 Anemograna and use their energy to create wind currents. Has a cooldown of 100 seconds and cannot be used in combat.",
+			"crafting_type": "Forging",
+			"source": "Reach Reputation Level 3 in Mondstadt",
+			"reusable": true
+		}
+	]
+}
