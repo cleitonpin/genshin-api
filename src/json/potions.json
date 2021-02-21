@@ -1,0 +1,76 @@
+{
+	"potions": [
+		{
+			"name": "Unmoving Essential Oil",
+			"rarity": 3,
+			"type": "potions",
+			"effect": "Increases all party members' Geo DMG by 25% for 300s."
+		},
+		{
+			"name": "Desiccant Potion",
+			"rarity": 3,
+			"type": "potions",
+			"effect": "Increases all party members' Hydro RES by 25% for 300s."
+		},
+		{
+			"name": "Dustproof Potion",
+			"rarity": 3,
+			"type": "potions",
+			"effect": "Increases all party members' Geo RES by 25% for 300s."
+		},
+		{
+			"name": "Flaming Essential Oil",
+			"rarity": 3,
+			"type": "potions",
+			"effect": "Increases all party members' Pyro DMG by 25% for 300s."
+		},
+		{
+			"name": "Frosting Essential Oil",
+			"rarity": 3,
+			"type": "potions",
+			"effect": "Increases all party members' Cryo DMG by 25% for 300s."
+		},
+		{
+			"name": "Frostshield Potion",
+			"rarity": 3,
+			"type": "potions",
+			"effect": "Increases all party members' Cryo RES by 25% for 300s."
+		},
+		{
+			"name": "Heatshield Potion",
+			"rarity": 3,
+			"type": "potions",
+			"effect": "Increases all party members' Pyro RES by 25% for 300s."
+		},
+		{
+			"name": "Gushing Essential Oil",
+			"rarity": 3,
+			"type": "potions",
+			"effect": "Increases all party members' Anemo DMG by 25% for 300s."
+		},
+		{
+			"name": "Insulation Potion",
+			"rarity": 3,
+			"type": "potions",
+			"effect": "Increases all party members' Electro RES by 25% for 300s."
+		},
+		{
+			"name": "Shocking Essential Oil",
+			"rarity": 3,
+			"type": "potions",
+			"effect": "Increases all party members' Electro DMG by 25% for 300s."
+		},
+		{
+			"name": "Streaming Essential Oil",
+			"rarity": 3,
+			"type": "potions",
+			"effect": "Increases all party members' Hydro DMG by 25% for 300s."
+		},
+		{
+			"name": "Windbarrier Potion",
+			"rarity": 3,
+			"type": "potions",
+			"effect": "Increases all party members' Anemo RES by 25% for 300s."
+		}
+	]
+}

@@ -1,0 +1,1681 @@
+{
+	"materials": {
+		"character-ascension": {
+				"anemo": {
+					"sliver": {
+						"id": "vayuda-turquoise-sliver",
+						"name": "Vayuda Turquoise Sliver",
+						"sources": [
+							"Anemo Hypostasis",
+							"Wolf of the North",
+							"Souvenir shop",
+							"Memories: Storming Terror I",
+							"Memories: Storming Terror II",
+							"Memories: Storming Terror III",
+							"Memories: Storming Terror IV",
+							"Memories: Storming Terror V",
+							"Memories: Storming Terror VI",
+							"Memories: The Golden Shadow I",
+							"Memories: The Golden Shadow II",
+							"Memories: The Golden Shadow III",
+							"Memories: The Golden Shadow IV"
+						],
+						"rarity": 2
+					},
+					"fragment": {
+						"id": "vayuda-turquoise-fragment",
+						"name": "Vayuda Turquoise Fragment",
+						"sources": [
+							"Anemo Hypostasis",
+							"Wolf of the North",
+							"Memories: Storming Terror I",
+							"Memories: Storming Terror II",
+							"Memories: Storming Terror III",
+							"Memories: Storming Terror IV",
+							"Memories: Storming Terror V",
+							"Memories: Storming Terror VI",
+							"Memories: The Golden Shadow I",
+							"Memories: The Golden Shadow II",
+							"Memories: The Golden Shadow III",
+							"Memories: The Golden Shadow IV"
+						],
+						"rarity": 3
+					},
+					"chunk": {
+						"id": "vayuda-turquoise-chunk",
+						"name": "Vayuda Turquoise Chunk",
+						"sources": [
+							"Anemo Hypostasis",
+							"Wolf of the North",
+							"Memories: Storming Terror III",
+							"Memories: Storming Terror IV",
+							"Memories: Storming Terror V",
+							"Memories: Storming Terror VI",
+							"Memories: The Golden Shadow I",
+							"Memories: The Golden Shadow II",
+							"Memories: The Golden Shadow III",
+							"Memories: The Golden Shadow IV"
+						],
+						"rarity": 4
+					},
+					"gemstone": {
+						"id": "vayuda-turquoise-gemstone",
+						"name": "Vayuda Turquoise Gemstone",
+						"sources": [
+							"Anemo Hypostasis",
+							"Wolf of the North",
+							"Memories: Storming Terror V",
+							"Memories: Storming Terror VI",
+							"Memories: The Golden Shadow III",
+							"Memories: The Golden Shadow IV"
+						],
+						"rarity": 5
+					}
+				},
+				"cryo": {
+					"sliver": {
+						"id": "shivada-jade-sliver",
+						"name": "Shivada Jade Sliver",
+						"sources": [
+							"Cryo Regisvine",
+							"Wolf of the North",
+							"Souvenir shop",
+							"Memories: Storming Terror I",
+							"Memories: Storming Terror II",
+							"Memories: Storming Terror III",
+							"Memories: Storming Terror IV",
+							"Memories: Storming Terror V",
+							"Memories: Storming Terror VI",
+							"Memories: The Golden Shadow I",
+							"Memories: The Golden Shadow II",
+							"Memories: The Golden Shadow III",
+							"Memories: The Golden Shadow IV"
+						],
+						"rarity": 2
+					},
+					"fragment": {
+						"id": "shivada-jade-fragment",
+						"name": "Shivada Jade Fragment",
+						"sources": [
+							"Cryo Regisvine",
+							"Wolf of the North",
+							"Memories: Storming Terror I",
+							"Memories: Storming Terror II",
+							"Memories: Storming Terror III",
+							"Memories: Storming Terror IV",
+							"Memories: Storming Terror V",
+							"Memories: Storming Terror VI",
+							"Memories: The Golden Shadow I",
+							"Memories: The Golden Shadow II",
+							"Memories: The Golden Shadow III",
+							"Memories: The Golden Shadow IV"
+						],
+						"rarity": 3
+					},
+					"chunk": {
+						"id": "shivada-jade-chunk",
+						"name": "Shivada Jade Chunk",
+						"sources": [
+							"Cryo Regisvine",
+							"Wolf of the North",
+							"Memories: Storming Terror III",
+							"Memories: Storming Terror IV",
+							"Memories: Storming Terror V",
+							"Memories: Storming Terror VI",
+							"Memories: The Golden Shadow I",
+							"Memories: The Golden Shadow II",
+							"Memories: The Golden Shadow III",
+							"Memories: The Golden Shadow IV"
+						],
+						"rarity": 4
+					},
+					"gemstone": {
+						"id": "shivada-jade-gemstone",
+						"name": "Shivada Jade Gemstone",
+						"sources": [
+							"Cryo Regisvine",
+							"Wolf of the North",
+							"Memories: Storming Terror V",
+							"Memories: Storming Terror VI",
+							"Memories: The Golden Shadow III",
+							"Memories: The Golden Shadow IV"
+						],
+						"rarity": 5
+					}
+				},
+				"electro": {
+					"sliver": {
+						"id": "vajrada-amethyst-sliver",
+						"name": "Vajrada Amethyst Sliver",
+						"sources": [
+							"Electro Hypostasis",
+							"Wolf of the North",
+							"Souvenir shop",
+							"Memories: Storming Terror I",
+							"Memories: Storming Terror II",
+							"Memories: Storming Terror III",
+							"Memories: Storming Terror IV",
+							"Memories: Storming Terror V",
+							"Memories: Storming Terror VI",
+							"Memories: The Golden Shadow I",
+							"Memories: The Golden Shadow II",
+							"Memories: The Golden Shadow III",
+							"Memories: The Golden Shadow IV"
+						],
+						"rarity": 2
+					},
+					"fragment": {
+						"id": "vajrada-amethyst-fragment",
+						"name": "Vajrada Amethyst Fragment",
+						"sources": [
+							"Electro Hypostasis",
+							"Wolf of the North",
+							"Memories: Storming Terror I",
+							"Memories: Storming Terror II",
+							"Memories: Storming Terror III",
+							"Memories: Storming Terror IV",
+							"Memories: Storming Terror V",
+							"Memories: Storming Terror VI",
+							"Memories: The Golden Shadow I",
+							"Memories: The Golden Shadow II",
+							"Memories: The Golden Shadow III",
+							"Memories: The Golden Shadow IV"
+						],
+						"rarity": 3
+					},
+					"chunk": {
+						"id": "vajrada-amethyst-chunk",
+						"name": "Vajrada Amethyst Chunk",
+						"sources": [
+							"Electro Hypostasis",
+							"Wolf of the North",
+							"Memories: Storming Terror III",
+							"Memories: Storming Terror IV",
+							"Memories: Storming Terror V",
+							"Memories: Storming Terror VI",
+							"Memories: The Golden Shadow I",
+							"Memories: The Golden Shadow II",
+							"Memories: The Golden Shadow III",
+							"Memories: The Golden Shadow IV"
+						],
+						"rarity": 4
+					},
+					"gemstone": {
+						"id": "vajrada-amethyst-gemstone",
+						"name": "Vajrada Amethyst Gemstone",
+						"sources": [
+							"Electro Hypostasis",
+							"Wolf of the North",
+							"Memories: Storming Terror V",
+							"Memories: Storming Terror VI",
+							"Memories: The Golden Shadow III",
+							"Memories: The Golden Shadow IV"
+						],
+						"rarity": 5
+					}
+				},
+				"geo": {
+					"sliver": {
+						"id": "prithiva-topaz-sliver",
+						"name": "Prithiva Topaz Sliver",
+						"sources": [
+							"Geo Hypostasis",
+							"Wolf of the North",
+							"Souvenir shop",
+							"Memories: Storming Terror I",
+							"Memories: Storming Terror II",
+							"Memories: Storming Terror III",
+							"Memories: Storming Terror IV",
+							"Memories: Storming Terror V",
+							"Memories: Storming Terror VI",
+							"Memories: The Golden Shadow I",
+							"Memories: The Golden Shadow II",
+							"Memories: The Golden Shadow III",
+							"Memories: The Golden Shadow IV"
+						],
+						"rarity": 2
+					},
+					"fragment": {
+						"id": "prithiva-topaz-fragment",
+						"name": "Prithiva Topaz Fragment",
+						"sources": [
+							"Geo Hypostasis",
+							"Wolf of the North",
+							"Memories: Storming Terror I",
+							"Memories: Storming Terror II",
+							"Memories: Storming Terror III",
+							"Memories: Storming Terror IV",
+							"Memories: Storming Terror V",
+							"Memories: Storming Terror VI",
+							"Memories: The Golden Shadow I",
+							"Memories: The Golden Shadow II",
+							"Memories: The Golden Shadow III",
+							"Memories: The Golden Shadow IV"
+						],
+						"rarity": 3
+					},
+					"chunk": {
+						"id": "prithiva-topaz-chunk",
+						"name": "Prithiva Topaz Chunk",
+						"sources": [
+							"Geo Hypostasis",
+							"Wolf of the North",
+							"Memories: Storming Terror III",
+							"Memories: Storming Terror IV",
+							"Memories: Storming Terror V",
+							"Memories: Storming Terror VI",
+							"Memories: The Golden Shadow I",
+							"Memories: The Golden Shadow II",
+							"Memories: The Golden Shadow III",
+							"Memories: The Golden Shadow IV"
+						],
+						"rarity": 4
+					},
+					"gemstone": {
+						"id": "prithiva-topaz-gemstone",
+						"name": "Prithiva Topaz Gemstone",
+						"sources": [
+							"Geo Hypostasis",
+							"Wolf of the North",
+							"Memories: Storming Terror V",
+							"Memories: Storming Terror VI",
+							"Memories: The Golden Shadow III",
+							"Memories: The Golden Shadow IV"
+						],
+						"rarity": 5
+					}
+				},
+				"hydro": {
+					"sliver": {
+						"id": "varunada-lazurite-sliver",
+						"name": "Varunada Lazurite Sliver",
+						"sources": [
+							"Oceanid",
+							"Wolf of the North",
+							"Souvenir shop",
+							"Memories: Storming Terror I",
+							"Memories: Storming Terror II",
+							"Memories: Storming Terror III",
+							"Memories: Storming Terror IV",
+							"Memories: Storming Terror V",
+							"Memories: Storming Terror VI",
+							"Memories: The Golden Shadow I",
+							"Memories: The Golden Shadow II",
+							"Memories: The Golden Shadow III",
+							"Memories: The Golden Shadow IV"
+						],
+						"rarity": 2
+					},
+					"fragment": {
+						"id": "varunada-lazurite-fragment",
+						"name": "Varunada Lazurite Fragment",
+						"sources": [
+							"Oceanid",
+							"Wolf of the North",
+							"Memories: Storming Terror I",
+							"Memories: Storming Terror II",
+							"Memories: Storming Terror III",
+							"Memories: Storming Terror IV",
+							"Memories: Storming Terror V",
+							"Memories: Storming Terror VI",
+							"Memories: The Golden Shadow I",
+							"Memories: The Golden Shadow II",
+							"Memories: The Golden Shadow III",
+							"Memories: The Golden Shadow IV"
+						],
+						"rarity": 3
+					},
+					"chunk": {
+						"id": "varunada-lazurite-chunk",
+						"name": "Varunada Lazurite Chunk",
+						"sources": [
+							"Oceanid",
+							"Wolf of the North",
+							"Memories: Storming Terror III",
+							"Memories: Storming Terror IV",
+							"Memories: Storming Terror V",
+							"Memories: Storming Terror VI",
+							"Memories: The Golden Shadow I",
+							"Memories: The Golden Shadow II",
+							"Memories: The Golden Shadow III",
+							"Memories: The Golden Shadow IV"
+						],
+						"rarity": 4
+					},
+					"gemstone": {
+						"id": "varunada-lazurite-gemstone",
+						"name": "Varunada Lazurite Gemstone",
+						"sources": [
+							"Oceanid",
+							"Wolf of the North",
+							"Memories: Storming Terror V",
+							"Memories: Storming Terror VI",
+							"Memories: The Golden Shadow III",
+							"Memories: The Golden Shadow IV"
+						],
+						"rarity": 5
+					}
+				},
+				"pyro": {
+					"sliver": {
+						"id": "agnidus-agate-sliver",
+						"name": "Agnidus Agate Sliver",
+						"sources": [
+							"Pyro Regisvine",
+							"Wolf of the North",
+							"Souvenir shop",
+							"Memories: Storming Terror I",
+							"Memories: Storming Terror II",
+							"Memories: Storming Terror III",
+							"Memories: Storming Terror IV",
+							"Memories: Storming Terror V",
+							"Memories: Storming Terror VI",
+							"Memories: The Golden Shadow I",
+							"Memories: The Golden Shadow II",
+							"Memories: The Golden Shadow III",
+							"Memories: The Golden Shadow IV"
+						],
+						"rarity": 2
+					},
+					"fragment": {
+						"id": "agnidus-agate-fragment",
+						"name": "Agnidus Agate Fragment",
+						"sources": [
+							"Pyro Regisvine",
+							"Wolf of the North",
+							"Memories: Storming Terror I",
+							"Memories: Storming Terror II",
+							"Memories: Storming Terror III",
+							"Memories: Storming Terror IV",
+							"Memories: Storming Terror V",
+							"Memories: Storming Terror VI",
+							"Memories: The Golden Shadow I",
+							"Memories: The Golden Shadow II",
+							"Memories: The Golden Shadow III",
+							"Memories: The Golden Shadow IV"
+						],
+						"rarity": 3
+					},
+					"chunk": {
+						"id": "agnidus-agate-chunk",
+						"name": "Agnidus Agate Chunk",
+						"sources": [
+							"Pyro Regisvine",
+							"Wolf of the North",
+							"Memories: Storming Terror III",
+							"Memories: Storming Terror IV",
+							"Memories: Storming Terror V",
+							"Memories: Storming Terror VI",
+							"Memories: The Golden Shadow I",
+							"Memories: The Golden Shadow II",
+							"Memories: The Golden Shadow III",
+							"Memories: The Golden Shadow IV"
+						],
+						"rarity": 4
+					},
+					"gemstone": {
+						"id": "agnidus-agate-gemstone",
+						"name": "Agnidus Agate Gemstone",
+						"sources": [
+							"Pyro Regisvine",
+							"Wolf of the North",
+							"Memories: Storming Terror V",
+							"Memories: Storming Terror VI",
+							"Memories: The Golden Shadow III",
+							"Memories: The Golden Shadow IV"
+						],
+						"rarity": 5
+					}
+				},
+				"traveler": {
+					"sliver": {
+						"id": "brilliant-diamond-sliver",
+						"name": "Brilliant Diamond Sliver",
+						"sources": [
+							"Adventure Rank 15"
+						],
+						"rarity": 2
+					},
+					"fragment": {
+						"id": "brilliant-diamond-fragment",
+						"name": "Brilliant Diamond Fragment",
+						"sources": [
+							"Adventure Rank 25",
+							"Adventure Rank 26",
+							"Adventure Rank 28",
+							"Adventure Rank 30"
+						],
+						"rarity": 3
+					},
+					"chunk": {
+						"id": "brilliant-diamond-chunk",
+						"name": "Brilliant Diamond Chunk",
+						"sources": [
+							"Adventure Rank 35",
+							"Adventure Rank 38",
+							"Adventure Rank 40"
+						],
+						"rarity": 4
+					},
+					"gemstone": {
+						"id": "brilliant-diamond-gemstone",
+						"name": "Brilliant Diamond Gemstone",
+						"sources": [
+							"Adventure Rank 41",
+							"Adventure Rank 42",
+							"Adventure Rank 45"
+						],
+						"rarity": 5
+					}
+				}
+		},
+		"character-experience": {
+			"items": [
+				{
+					"id": "wanderer's-advice",
+					"name": "Wanderer's Advice",
+					"experience": 1000,
+					"rarity": 1
+				},
+				{
+					"id": "adventurer's-experience",
+					"name": "Adventurer's Experience",
+					"experience": 5000,
+					"rarity": 2
+				},
+				{
+					"id": "hero's-wit",
+					"name": "Hero's Wit",
+					"experience": 20000,
+					"rarity": 3
+				}
+			]
+		},
+		"common-ascension": {
+			"slime": {
+				"characters": [
+					"lisa",
+					"venti",
+					"xiangling",
+					"zhongli"
+				],
+				"items": [
+					{
+						"id": "slime-condensate",
+						"name": "Slime Condensate",
+						"rarity": 1
+					},
+					{
+						"id": "slime-secretions",
+						"name": "Slime Secretions",
+						"rarity": 2
+					},
+					{
+						"id": "slime-concentrate",
+						"name": "Slime Concentrate",
+						"rarity": 3
+					}
+				],
+				"sources": [
+					"Slime"
+				]
+			},
+			"hilichurl-masks": {
+				"characters": [
+					"jean",
+					"noelle",
+					"razor",
+					"chongyun",
+					"xingqiu"
+				],
+				"items": [
+					{
+						"id": "damaged-mask",
+						"name": "Damaged Mask",
+						"rarity": 1
+					},
+					{
+						"id": "stained-mask",
+						"name": "Stained Mask",
+						"rarity": 2
+					},
+					{
+						"id": "ominous-mask",
+						"name": "Ominous Mask",
+						"rarity": 3
+					}
+				],
+				"sources": [
+					"Hilichurl",
+					"Samachurl",
+					"Mitachurl",
+					"Lawachurl"
+				]
+			},
+			"hilichurl-arrowheads": {
+				"characters": [
+					"amber",
+					"diona",
+					"fischl"
+				],
+				"items": [
+					{
+						"id": "firm-arrowhead",
+						"name": "Firm Arrowhead",
+						"rarity": 1
+					},
+					{
+						"id": "sharp-arrowhead",
+						"name": "Sharp Arrowhead",
+						"rarity": 2
+					},
+					{
+						"id": "weathered-arrowhead",
+						"name": "Weathered Arrowhead",
+						"rarity": 3
+					}
+				],
+				"sources": [
+					"Hilichurl Archer"
+				]
+			},
+			"samachurl-scrolls": {
+				"characters": [
+					"albedo",
+					"barbara",
+					"klee",
+					"qiqi",
+					"traveler-anemo",
+					"traveler-geo"
+				],
+				"items": [
+					{
+						"id": "divining-scroll",
+						"name": "Divining Scroll",
+						"rarity": 1
+					},
+					{
+						"id": "sealed-scroll",
+						"name": "Sealed Scroll",
+						"rarity": 2
+					},
+					{
+						"id": "forbidden-curse-scroll",
+						"name": "Forbidden Curse Scroll",
+						"rarity": 3
+					}
+				],
+				"sources": [
+					"Samachurl"
+				]
+			},
+			"treasure-hoarder-insignias": {
+				"characters": [
+					"kaeya",
+					"bennett",
+					"beidou",
+					"xinyan"
+				],
+				"items": [
+					{
+						"id": "treasure-hoarder-insignia",
+						"name": "Treasure Hoarder Insignia",
+						"rarity": 1
+					},
+					{
+						"id": "silver-raven-insignia",
+						"name": "Silver Raven Insignia",
+						"rarity": 2
+					},
+					{
+						"id": "golden-raven-insignia",
+						"name": "Golden Raven Insignia",
+						"rarity": 3
+					}
+				],
+				"sources": [
+					"Treasure Hoarder"
+				]
+			},
+			"fatui-insignias": {
+				"characters": [
+					"diluc",
+					"ningguang",
+					"tartaglia"
+				],
+				"items": [
+					{
+						"id": "recruit's-insignia",
+						"name": "Recruit's Insignia",
+						"rarity": 1
+					},
+					{
+						"id": "sergeant's-insignia",
+						"name": "Sergeant's Insignia",
+						"rarity": 2
+					},
+					{
+						"id": "lieutenant's-insignia",
+						"name": "Lieutenant's Insignia",
+						"rarity": 3
+					}
+				],
+				"sources": [
+					"Fatui Skirmisher",
+					"Fatui Cicin Mage",
+					"Fatui Agent"
+				]
+			},
+			"whopperflower-nectar": {
+				"characters": [
+					"mona",
+					"sucrose",
+					"keqing"
+				],
+				"items": [
+					{
+						"id": "whopperflower-nectar",
+						"name": "Whopperflower Nectar",
+						"rarity": 1
+					},
+					{
+						"id": "shimmering-nectar",
+						"name": "Shimmering Nectar",
+						"rarity": 2
+					},
+					{
+						"id": "energy-nectar",
+						"name": "Energy Nectar",
+						"rarity": 3
+					}
+				],
+				"sources": [
+					"Whopperflower"
+				]
+			},
+			"hilichurl-horns": {
+				"weapons": [
+					"apprentice's-notes",
+					"aquila-favonia",
+					"cool-steel",
+					"dull-blade",
+					"favonius-codex",
+					"favonius-sword",
+					"ferrous-shadow",
+					"festering-desire",
+					"magic-guide",
+					"pocket-grimoire",
+					"raven-bow",
+					"royal-grimoire",
+					"royal-longsword",
+					"silver-sword",
+					"snow-tombed-starsilver",
+					"the-bell",
+					"the-stringless",
+					"the-viridescent-hunt"
+				],
+				"items": [
+					{
+						"id": "heavy-horn",
+						"name": "Heavy Horn",
+						"rarity": 2
+					},
+					{
+						"id": "black-bronze-horn",
+						"name": "Black Bronze Horn",
+						"rarity": 3
+					},
+					{
+						"id": "black-crystal-horn",
+						"name": "Black Crystal Horn",
+						"rarity": 4
+					}
+				],
+				"sources": [
+					"Mitachurl",
+					"Lawachurl"
+				]
+			},
+			"ley-line": {
+				"weapons": [
+					"alley-hunter",
+					"bloodtainted-greatsword",
+					"deathmatch",
+					"dragonspine-spear",
+					"harbinger-of-dawn",
+					"hunter's-bow",
+					"old-merc's-pal",
+					"sacrificial-bow",
+					"sacrificial-greatsword",
+					"seasoned-hunter's-bow",
+					"sharpshooter's-oath",
+					"skyward-atlas",
+					"skyward-blade",
+					"skyward-harp",
+					"skyward-pride",
+					"sword-of-descension",
+					"the-black-sword",
+					"the-flute",
+					"the-widsith",
+					"thrilling-tales-of-dragon-slayers",
+					"waster-greatsword",
+					"wine-and-song"
+				],
+				"items": [
+					{
+						"id": "dead-ley-line-branch",
+						"name": "Dead Ley Line Branch",
+						"rarity": 2
+					},
+					{
+						"id": "dead-ley-line-leaves",
+						"name": "Dead Ley Line Leaves",
+						"rarity": 3
+					},
+					{
+						"id": "ley-line-sprout",
+						"name": "Ley Line Sprout",
+						"rarity": 4
+					}
+				],
+				"sources": [
+					"Abyss Mage"
+				]
+			},
+			"bone-shards": {
+				"weapons": [
+					"black-tassel",
+					"compound-bow",
+					"iron-sting",
+					"mappa-mare",
+					"memory-of-dust",
+					"prototype-archaic",
+					"prototype-starglitter",
+					"serpent-spine",
+					"skyrider-greatsword",
+					"skyrider-sword",
+					"vortex-vanquisher"
+				],
+				"items": [
+					{
+						"id": "fragile-bone-shard",
+						"name": "Fragile Bone Shard",
+						"rarity": 2
+					},
+					{
+						"id": "sturdy-bone-shard",
+						"name": "Sturdy Bone Shard",
+						"rarity": 3
+					},
+					{
+						"id": "fossilized-bone-shard",
+						"name": "Fossilized Bone Shard",
+						"rarity": 4
+					}
+				],
+				"sources": [
+					"Geovishap Hatchling"
+				]
+			},
+			"mist-grass": {
+				"weapons": [
+					"blackcliff-slasher",
+					"debate-club",
+					"dragon's-bane",
+					"dragonspine-spear",
+					"eye-of-perception",
+					"fillet-blade",
+					"halberd",
+					"messenger",
+					"prototype-amber",
+					"prototype-crescent",
+					"prototype-rancour",
+					"rainslasher",
+					"royal-spear",
+					"the-unforged",
+					"twin-nephrite"
+				],
+				"items": [
+					{
+						"id": "mist-grass-pollen",
+						"name": "Mist Grass Pollen",
+						"rarity": 2
+					},
+					{
+						"id": "mist-grass",
+						"name": "Mist Grass",
+						"rarity": 3
+					},
+					{
+						"id": "mist-grass-wick",
+						"name": "Mist Grass Wick",
+						"rarity": 4
+					}
+				],
+				"sources": [
+					"Fatui Cicin Mage"
+				]
+			},
+			"fatui-knives": {
+				"weapons": [
+					"blackcliff-agate",
+					"blackcliff-longsword",
+					"blackcliff-warbow",
+					"crescent-pike",
+					"dark-iron-sword",
+					"emerald-orb",
+					"lion's-roar",
+					"primordial-jade-winged-spear",
+					"rust",
+					"slingshot",
+					"solar-pearl",
+					"summit-shaper",
+					"white-tassel",
+					"whiteblind"
+				],
+				"items": [
+					{
+						"id": "hunter's-sacrificial-knife",
+						"name": "Hunter's Sacrificial Knife",
+						"rarity": 2
+					},
+					{
+						"id": "agent's-sacrificial-knife",
+						"name": "Agent's Sacrificial Knife",
+						"rarity": 3
+					},
+					{
+						"id": "inspector's-sacrificial-knife",
+						"name": "Inspector's Sacrificial Knife",
+						"rarity": 4
+					}
+				],
+				"sources": [
+					"Fatui Agent"
+				]
+			},
+			"chaos-parts": {
+				"weapons": [
+					"amos'-bow",
+					"beginner's-protector",
+					"favonius-greatsword",
+					"favonius-lance",
+					"favonius-warbow",
+					"frostbearer",
+					"iron-point",
+					"lost-prayer-to-the-sacred-winds",
+					"otherworldly-story",
+					"recurve-bow",
+					"royal-bow",
+					"royal-greatsword",
+					"sacrificial-fragments",
+					"sacrificial-sword",
+					"skyward-spine",
+					"traveler's-handy-sword",
+					"white-iron-greatsword",
+					"wolf's-gravestone"
+				],
+				"items": [
+					{
+						"id": "chaos-device",
+						"name": "Chaos Device",
+						"rarity": 2
+					},
+					{
+						"id": "chaos-circuit",
+						"name": "Chaos Circuit",
+						"rarity": 3
+					},
+					{
+						"id": "chaos-core",
+						"name": "Chaos Core",
+						"rarity": 4
+					}
+				],
+				"sources": [
+					"Ruin Guard",
+					"Ruin Hunter",
+					"Ruin Grader"
+				]
+			}
+		},
+		"local-specialties": {
+			"mondstadt": [
+				{
+					"id": "calla-lily",
+					"name": "Calla Lily",
+					"characters": [
+						"diona",
+						"kaeya"
+					]
+				},
+				{
+					"id": "cecilia",
+					"name": "Cecilia",
+					"characters": [
+						"albedo",
+						"venti"
+					]
+				},
+				{
+					"id": "dandelion-seed",
+					"name": "Dandelion Seed",
+					"characters": [
+						"jean"
+					]
+				},
+				{
+					"id": "philanemo-mushroom",
+					"name": "Philanemo Mushroom",
+					"characters": [
+						"barbara",
+						"klee",
+						"mona"
+					]
+				},
+				{
+					"id": "small-lamp-grass",
+					"name": "Small Lamp Grass",
+					"characters": [
+						"amber",
+						"diluc",
+						"fischl"
+					]
+				},
+				{
+					"id": "valberry",
+					"name": "Valberry",
+					"characters": [
+						"lisa",
+						"noelle"
+					]
+				},
+				{
+					"id": "windwheel-aster",
+					"name": "Windwheel Aster",
+					"characters": [
+						"bennett",
+						"sucrose",
+						"traveler-anemo",
+						"traveler-geo"
+					]
+				},
+				{
+					"id": "wolfhook",
+					"name": "Wolfhook",
+					"characters": [
+						"razor"
+					]
+				}
+			],
+			"liyue": [
+				{
+					"id": "cor-lapis",
+					"name": "Cor Lapis",
+					"characters": [
+						"chongyun",
+						"keqing",
+						"zhongli"
+					]
+				},
+				{
+					"id": "glaze-lily",
+					"name": "Glaze Lily",
+					"characters": [
+						"ningguang"
+					]
+				},
+				{
+					"id": "jueyun-chili",
+					"name": "Jueyun Chili",
+					"characters": [
+						"xiangling"
+					]
+				},
+				{
+					"id": "noctilucous-jade",
+					"name": "Noctilucous Jade",
+					"characters": [
+						"beidou"
+					]
+				},
+				{
+					"id": "qingxin",
+					"name": "Qingxin",
+					"characters": [
+						"ganyu",
+						"xiao"
+					]
+				},
+				{
+					"id": "silk-flower",
+					"name": "Silk Flower",
+					"characters": [
+						"xingqiu"
+					]
+				},
+				{
+					"id": "starconch",
+					"name": "Starconch",
+					"characters": [
+						"tartaglia"
+					]
+				},
+				{
+					"id": "violetgrass",
+					"name": "Violetgrass",
+					"characters": [
+						"qiqi",
+						"xinyan"
+					]
+				}
+			]
+		},
+		"talent-book": {
+			"freedom": {
+				"characters": [
+					"amber",
+					"barbara",
+					"diona",
+					"sucrose",
+					"tartaglia",
+					"traveler-anemo",
+					"traveler-geo"
+				],
+				"availability": [
+					"Monday",
+					"Thursday",
+					"Sunday"
+				],
+				"source": "forsaken-rift",
+				"items": [
+					{
+						"id": "teachings-of-freedom",
+						"name": "Teachings of Freedom",
+						"rarity": 2
+					},
+					{
+						"id": "guide-to-freedom",
+						"name": "Guide to Freedom",
+						"rarity": 3
+					},
+					{
+						"id": "philosophies-of-freedom",
+						"name": "Philosophies of Freedom",
+						"rarity": 4
+					}
+				]
+			},
+			"resistance": {
+				"characters": [
+					"bennett",
+					"diluc",
+					"jean",
+					"mona",
+					"razor",
+					"traveler-anemo",
+					"traveler-geo"
+				],
+				"availability": [
+					"Tuesday",
+					"Friday",
+					"Sunday"
+				],
+				"source": "forsaken-rift",
+				"items": [
+					{
+						"id": "teachings-of-resistance",
+						"name": "Teachings of Resistance",
+						"rarity": 2
+					},
+					{
+						"id": "guide-to-resistance",
+						"name": "Guide to Resistance",
+						"rarity": 3
+					},
+					{
+						"id": "philosophies-of-resistance",
+						"name": "Philosophies of Resistance",
+						"rarity": 4
+					}
+				]
+			},
+			"ballad": {
+				"characters": [
+					"albedo",
+					"fischl",
+					"kaeya",
+					"lisa",
+					"venti",
+					"traveler-anemo",
+					"traveler-geo"
+				],
+				"availability": [
+					"Wednesday",
+					"Saturday",
+					"Sunday"
+				],
+				"source": "forsaken-rift",
+				"items": [
+					{
+						"id": "teachings-of-ballad",
+						"name": "Teachings of Ballad",
+						"rarity": 2
+					},
+					{
+						"id": "guide-to-ballad",
+						"name": "Guide to Ballad",
+						"rarity": 3
+					},
+					{
+						"id": "philosophies-of-ballad",
+						"name": "Philosophies of Ballad",
+						"rarity": 4
+					}
+				]
+			},
+			"prosperity": {
+				"characters": [
+					"keqing",
+					"ningguang",
+					"qiqi",
+					"traveler-geo"
+				],
+				"availability": [
+					"Monday",
+					"Thursday",
+					"Sunday"
+				],
+				"source": "taishan-mansion",
+				"items": [
+					{
+						"id": "teachings-of-prosperity",
+						"name": "Teachings of Prosperity",
+						"rarity": 2
+					},
+					{
+						"id": "guide-to-prosperity",
+						"name": "Guide to Prosperity",
+						"rarity": 3
+					},
+					{
+						"id": "philosophies-of-prosperity",
+						"name": "Philosophies of Prosperity",
+						"rarity": 4
+					}
+				]
+			},
+			"diligence": {
+				"characters": [
+					"chongyun",
+					"ganyu",
+					"xiangling",
+					"traveler-geo"
+				],
+				"availability": [
+					"Tuesday",
+					"Friday",
+					"Sunday"
+				],
+				"source": "taishan-mansion",
+				"items": [
+					{
+						"id": "teachings-of-diligence",
+						"name": "Teachings of Diligence",
+						"rarity": 2
+					},
+					{
+						"id": "guide-to-diligence",
+						"name": "Guide to Diligence",
+						"rarity": 3
+					},
+					{
+						"id": "philosophies-of-diligence",
+						"name": "Philosophies of Diligence",
+						"rarity": 4
+					}
+				]
+			},
+			"gold": {
+				"characters": [
+					"beidou",
+					"xingqiu",
+					"xinyan",
+					"zhongli",
+					"traveler-geo"
+				],
+				"availability": [
+					"Wednesday",
+					"Saturday",
+					"Sunday"
+				],
+				"source": "taishan-mansion",
+				"items": [
+					{
+						"id": "teachings-of-gold",
+						"name": "Teachings of Gold",
+						"rarity": 2
+					},
+					{
+						"id": "guide-to-gold",
+						"name": "Guide to Gold",
+						"rarity": 3
+					},
+					{
+						"id": "philosophies-of-gold",
+						"name": "Philosophies of Gold",
+						"rarity": 4
+					}
+				]
+			}
+		},
+		"talent-boss": {
+			"tail-of-boreas": {
+				"id": "tail-of-boreas",
+				"name": "Tail of Boreas",
+				"characters": [
+					"qiqi",
+					"venti",
+					"xingqiu",
+					"traveler-geo"
+				]
+			},
+			"ring-of-boreas": {
+				"id": "ring-of-boreas",
+				"name": "Ring of Boreas",
+				"characters": [
+					"barbara",
+					"keqing",
+					"klee",
+					"mona"
+				]
+			},
+			"spirit-locket-of-boreas": {
+				"id": "spirit-locket-of-boreas",
+				"name": "Spirit Locket of Boreas",
+				"characters": [
+					"fischl",
+					"kaeya",
+					"ningguang",
+					"sucrose"
+				]
+			},
+			"dvalin's-plume": {
+				"id": "dvalin's-plume",
+				"name": "Dvalin's Plume",
+				"characters": [
+					"bennett",
+					"diluc",
+					"jean"
+				]
+			},
+			"dvalin's-claw": {
+				"id": "dvalin's-claw",
+				"name": "Dvalin's Claw",
+				"characters": [
+					"lisa",
+					"noelle",
+					"razor",
+					"xiangling"
+				]
+			},
+			"dvalin's-sigh": {
+				"id": "dvalin's-sigh",
+				"name": "Dvalin's Sigh",
+				"characters": [
+					"amber",
+					"beidou",
+					"chongyun",
+					"traveler-anemo",
+					"traveler-geo"
+				]
+			},
+			"tusk-of-monoceros-caeli": {
+				"id": "tusk-of-monoceros-caeli",
+				"name": "Tusk of Monoceros Caeli",
+				"characters": [
+					"albedo",
+					"xinyan",
+					"zhongli"
+				]
+			},
+			"shard-of-a-foul-legacy": {
+				"id": "shard-of-a-foul-legacy",
+				"name": "Shard of a Foul Legacy",
+				"characters": [
+					"diona",
+					"tartagli"
+				]
+			},
+			"shadow-of-the-warrior": {
+				"id": "shadow-of-the-warrior",
+				"name": "Shadow of the Warrior",
+				"characters": [
+					"ganyu"
+				]
+			}
+		},
+		"weapon-ascension": {
+			"decarabian": {
+				"weapons": [
+					"apprentice's-notes",
+					"aquila-favonia",
+					"cool-steel",
+					"dull-blade",
+					"favonius-codex",
+					"favonius-sword",
+					"ferrous-shadow",
+					"magic-guide",
+					"pocket-grimoire",
+					"raven-bow",
+					"royal-grimoire",
+					"royal-longsword",
+					"silver-sword",
+					"snow-tombed-starsilver",
+					"the-bell",
+					"the-stringless",
+					"the-viridescent-hunt"
+				],
+				"availability": [
+					"Monday",
+					"Thursday",
+					"Sunday"
+				],
+				"source": "cecilia-garden",
+				"items": [
+					{
+						"id": "tile-of-decarabian's-tower",
+						"name": "Tile of Decarabian's Tower",
+						"rarity": 2
+					},
+					{
+						"id": "debris-of-decarabian's-city",
+						"name": "Debris of Decarabian's City",
+						"rarity": 3
+					},
+					{
+						"id": "fragment-of-decarabian's-epic",
+						"name": "Fragment of Decarabian's Epic",
+						"rarity": 4
+					},
+					{
+						"id": "scattered-piece-of-decarabian's-dream",
+						"name": "Scattered Piece of Decarabian's Dream",
+						"rarity": 5
+					}
+				]
+			},
+			"boreal": {
+				"weapons": [
+					"alley-hunter",
+					"bloodtainted-greatsword",
+					"deathmatch",
+					"dragonspine-spear",
+					"harbinger-of-dawn",
+					"hunter's-bow",
+					"old-merc's-pal",
+					"sacrificial-bow",
+					"sacrificial-greatsword",
+					"seasoned-hunter's-bow",
+					"sharpshooter's-oath",
+					"skyward-atlas",
+					"skyward-blade",
+					"skyward-harp",
+					"skyward-pride",
+					"sword-of-descension",
+					"the-black-sword",
+					"the-flute",
+					"the-widsith",
+					"thrilling-tales-of-dragon-slayers",
+					"waster-greatsword",
+					"wine-and-song"
+				],
+				"availability": [
+					"Tuesday",
+					"Friday",
+					"Sunday"
+				],
+				"source": "cecilia-garden",
+				"items": [
+					{
+						"id": "boreal-wolf's-milk-tooth",
+						"name": "Boreal Wolf's Milk Tooth",
+						"rarity": 2
+					},
+					{
+						"id": "boreal-wolf's-cracked-tooth",
+						"name": "Boreal Wolf's Cracked Tooth",
+						"rarity": 3
+					},
+					{
+						"id": "boreal-wolf's-broken-fang",
+						"name": "Boreal Wolf's Broken Fang",
+						"rarity": 4
+					},
+					{
+						"id": "boreal-wolf's-nostalgia",
+						"name": "Boreal Wolf's Nostalgia",
+						"rarity": 5
+					}
+				]
+			},
+			"dandelion": {
+				"weapons": [
+					"amos'-bow",
+					"beginner's-protector",
+					"favonius-greatsword",
+					"favonius-lance",
+					"favonius-warbow",
+					"frostbearer",
+					"iron-point",
+					"lost-prayer-to-the-sacred-winds",
+					"otherworldly-story",
+					"recurve-bow",
+					"royal-bow",
+					"royal-greatsword",
+					"sacrificial-fragments",
+					"sacrificial-sword",
+					"skyward-spine",
+					"traveler's-handy-sword",
+					"white-iron-greatsword",
+					"wolf's-gravestone"
+				],
+				"availability": [
+					"Wednesday",
+					"Saturday",
+					"Sunday"
+				],
+				"source": "cecilia-garden",
+				"items": [
+					{
+						"id": "fetters-of-the-dandelion-gladiator",
+						"name": "Fetters of the Dandelion Gladiator",
+						"rarity": 2
+					},
+					{
+						"id": "chains-of-the-dandelion-gladiator",
+						"name": "Chains of the Dandelion Gladiator",
+						"rarity": 3
+					},
+					{
+						"id": "shackles-of-the-dandelion-gladiator",
+						"name": "Shackles of the Dandelion Gladiator",
+						"rarity": 4
+					},
+					{
+						"id": "dream-of-the-dandelion-gladiator",
+						"name": "Dream of the Dandelion Gladiator",
+						"rarity": 5
+					}
+				]
+			},
+			"guyun": {
+				"weapons": [
+					"blackcliff-agate",
+					"blackcliff-longsword",
+					"blackcliff-warbow",
+					"crescent-pike",
+					"dark-iron-sword",
+					"emerald-orb",
+					"lion's-roar",
+					"primordial-jade-winged-spear",
+					"rust",
+					"slingshot",
+					"solar-pearl",
+					"summit-shaper",
+					"white-tassel",
+					"whiteblind"
+				],
+				"availability": [
+					"Monday",
+					"Thursday",
+					"Sunday"
+				],
+				"source": "hidden-palace-of-lianshan",
+				"items": [
+					{
+						"id": "luminous-sands-from-guyun",
+						"name": "Luminous Sands from Guyun",
+						"rarity": 2
+					},
+					{
+						"id": "lustrous-stone-from-guyun",
+						"name": "Lustrous Stone from Guyun",
+						"rarity": 3
+					},
+					{
+						"id": "relic-from-guyun",
+						"name": "Relic from Guyun",
+						"rarity": 4
+					},
+					{
+						"id": "divine-body-from-guyun",
+						"name": "Divine Body from Guyun",
+						"rarity": 5
+					}
+				]
+			},
+			"elixir": {
+				"weapons": [
+					"blackcliff-slasher",
+					"debate-club",
+					"dragon's-bane",
+					"dragonspine-spear",
+					"eye-of-perception",
+					"fillet-blade",
+					"halberd",
+					"messenger",
+					"prototype-amber",
+					"prototype-crescent",
+					"prototype-rancour",
+					"rainslasher",
+					"royal-spear",
+					"the-unforged",
+					"twin-nephrite"
+				],
+				"availability": [
+					"Tuesday",
+					"Friday",
+					"Sunday"
+				],
+				"source": "hidden-palace-of-lianshan",
+				"items": [
+					{
+						"id": "mist-veiled-lead-elixir",
+						"name": "Mist Veiled Lead Elixir",
+						"rarity": 2
+					},
+					{
+						"id": "mist-veiled-mercury-elixir",
+						"name": "Mist Veiled Mercury Elixir",
+						"rarity": 3
+					},
+					{
+						"id": "mist-veiled-gold-elixir",
+						"name": "Mist Veiled Gold Elixir",
+						"rarity": 4
+					},
+					{
+						"id": "mist-veiled-primo-elixir",
+						"name": "Mist Veiled Primo Elixir",
+						"rarity": 5
+					}
+				]
+			},
+			"aerosiderite": {
+				"weapons": [
+					"black-tassel",
+					"compound-bow",
+					"iron-sting",
+					"mappa-mare",
+					"memory-of-dust",
+					"prototype-archaic",
+					"prototype-starglitter",
+					"serpent-spine",
+					"skyrider-greatsword",
+					"skyrider-sword",
+					"vortex-vanquisher"
+				],
+				"availability": [
+					"Wednesday",
+					"Saturday",
+					"Sunday"
+				],
+				"source": "hidden-palace-of-lianshan",
+				"items": [
+					{
+						"id": "grain-of-aerosiderite",
+						"name": "Grain of Aerosiderite",
+						"rarity": 2
+					},
+					{
+						"id": "piece-of-aerosiderite",
+						"name": "Piece of Aerosiderite",
+						"rarity": 3
+					},
+					{
+						"id": "bit-of-aerosiderite",
+						"name": "Bit of Aerosiderite",
+						"rarity": 4
+					},
+					{
+						"id": "chunk-of-aerosiderite",
+						"name": "Chunk of Aerosiderite",
+						"rarity": 5
+					}
+				]
+			}
+		},
+		"weapon-experience": {
+			"items": [
+				{
+					"id": "enhancement-ore",
+					"name": "Enhancement Ore",
+					"experience": 400,
+					"rarity": 1,
+					"source": [
+						"Crafting"
+					]
+				},
+				{
+					"id": "fine-enhancement-ore",
+					"name": "Fine Enhancement Ore",
+					"experience": 2000,
+					"rarity": 2,
+					"source": [
+						"Crafting"
+					]
+				},
+				{
+					"id": "mystic-enhancement-ore",
+					"name": "Mystic Enhancement Ore",
+					"experience": 10000,
+					"rarity": 3,
+					"source": [
+						"Crafting"
+					]
+				}
+			]
+		}
+	}
+}
