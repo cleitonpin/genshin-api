@@ -1009,6 +1009,16 @@
 				"passiveName": "Wolfish Tracker",
 				"passiveDesc": "Increases Base ATK by 20/25/30/35/40%. On hit, attacks against enemies with less than 30% HP increase all party members' Base ATK by 40/50/60/70/80% for 12s. Can only occur once every 30s.",
 				"location": "Gacha"
+			},
+			{
+				"name": "Staff of Homa",
+				"type": "Polearm",
+				"rarity": 5,
+				"baseAttack": "46",
+				"subStat": "CRIT DMG",
+				"passiveName": "Reckless Cinnabar",
+				"passiveDesc": "HP increased by 20~40%. Additionally, provides an ATK Bonus based on 0.8~1.6% of the wielder's Max HP. When the wielder's HP is less than 50%, this ATK bonus is increased by an additional 1~1.8% of Max HP.",
+				"location": "Gacha"
 			}
 			
 	]
