@@ -1,0 +1,491 @@
+{
+	"enemies": {
+		"commonEnemies": [
+			{
+				"name": "Slimes",
+				"type": [
+					"anemo",
+					"cryo",
+					"dendro",
+					"electro",
+					"geo",
+					"hydro",
+					"pyro"
+				],
+				"faction": "No Faction",
+				"location": "All Teyvat",
+				"drops": {
+					"level_1": "Slime Condensate",
+					"level_40_plus": "Slime Secretions",
+					"level_60_plus": "Slime Concentrate"
+				}
+			},
+			{
+				"name": "Whopperflowers",
+				"type": [
+					"cryo",
+					"pyro"
+				],
+				"faction": "No Faction",
+				"location": "All Teyvat",
+				"drops": {
+					"level_1": "Whopperflower Nectar",
+					"level_40_plus": "Shimmering Nectar",
+					"level_60_plus": "Energy Nectar"
+				}
+			},
+			{
+				"name": "Defense Mechanisme",
+				"type": [],
+				"faction": "No Faction",
+				"location": "Dragonspine",
+				"drops": "Does not drop anything, and does not respawn outside of puzzles, quests and events."
+			},
+			{
+				"name": "Hilichurls",
+				"type": [
+					"normal",
+					"fighter",
+					"guard",
+					"berserker",
+					"pyro_grenadier",
+					"cryo_grenadier"
+				],
+				"faction": "Hilichurls",
+				"location": "All Teyvat",
+				"drops": {
+					"level_1": "Damaged Mask",
+					"level_40_plus": "Stained Mask",
+					"level_60_plus": "Ominous Mask"
+				}
+			},
+			{
+				"name": "Hilichurls Shooters",
+				"type": [
+					"normal",
+					"electro",
+					"cryo",
+					"pyro"
+				],
+				"faction": "Hilichurls",
+				"location": "All Teyvat",
+				"drops": {
+					"level_1": "Firm Arrowhead",
+					"level_40_plus": "Sharp Arrowhead",
+					"level_60_plus": "Weathered Arrowhead"
+				}
+			},
+			{
+				"name": "Samachurls",
+				"type": [
+					"anemo",
+					"geo",
+					"cryo",
+					"hydro",
+					"dendro"
+				],
+				"faction": "Hilichurls",
+				"location": "All Teyvat",
+				"drops": {
+					"level_1": "Divining Scroll",
+					"level_40_plus": "Sealed Scroll",
+					"level_60_plus": "Forbidden Curse Scroll"
+				}
+			},
+			{
+				"name": "Unusual",
+				"type": [
+					"Unusual"
+				],
+				"faction": "Hilichurls",
+				"location": "All Teyvat",
+				"drops": [
+					"cabbage",
+					"adventure_xp"
+				]
+			},
+			{
+				"name": "Vanguard",
+				"type": [
+					"Anemoboxer",
+					"Electrohammer"
+				],
+				"faction": "Fatui",
+				"location": "All Teyvat",
+				"drops": {
+					"level_1": "Recruit's Insignia",
+					"level_40_plus": "Sergeant's Insignia",
+					"level_60_plus": "Lieutenant's Insignia"
+				}
+			},
+			{
+				"name": "Bracer",
+				"type": [
+					"Geohunter",
+					"Pyroslinter"
+				],
+				"faction": "Fatui",
+				"location": "All Teyvat",
+				"drops": {
+					"level_1": "Recruit's Insignia",
+					"level_40_plus": "Sergeant's Insignia",
+					"level_60_plus": "Lieutenant's Insignia"
+				}
+			},
+			{
+				"name": "Leionnaire",
+				"type": [
+					"Cryogunner",
+					"Hydrogunner"
+				],
+				"faction": "Fatui",
+				"location": "All Teyvat",
+				"drops": {
+					"level_1": "Recruit's Insignia",
+					"level_40_plus": "Sergeant's Insignia",
+					"level_60_plus": "Lieutenant's Insignia"
+				}
+			},
+			{
+				"name": "Potioneers",
+				"type": [
+					"Electro",
+					"Pyro",
+					"cryo",
+					"hydro"
+				],
+				"faction": "Treasure Hoarders",
+				"location": "Liyue and Dragonspine",
+				"drops": {
+					"level_1": "Treasure Hoarder Insignia",
+					"level_40_plus": "Silver Raven Insignia",
+					"level_60_plus": "Golden Raven Insignia"
+				}
+			},
+			{
+				"name": "Crushers",
+				"type": [
+					"Crusher 1",
+					"Crusher 2",
+					"Crusher 3"
+				],
+				"faction": "Treasure Hoarders",
+				"location": "Liyue and Dragonspine",
+				"drops": {
+					"level_1": "Treasure Hoarder Insignia",
+					"level_40_plus": "Silver Raven Insignia",
+					"level_60_plus": "Golden Raven Insignia"
+				}
+			},
+			{
+				"name": "Gravediggers",
+				"type": [
+					"Gravediggers 1",
+					"Gravediggers 2",
+					"Gravediggers 3"
+				],
+				"faction": "Treasure Hoarders",
+				"location": "Liyue and Dragonspine",
+				"drops": {
+					"level_1": "Treasure Hoarder Insignia",
+					"level_40_plus": "Silver Raven Insignia",
+					"level_60_plus": "Golden Raven Insignia"
+				}
+			},
+			{
+				"name": "Marksmen",
+				"type": [
+					"Marksman 1",
+					"Marksman 2",
+					"Marksman 3"
+				],
+				"faction": "Treasure Hoarders",
+				"location": "Liyue and Dragonspine",
+				"drops": {
+					"level_1": "Treasure Hoarder Insignia",
+					"level_40_plus": "Silver Raven Insignia",
+					"level_60_plus": "Golden Raven Insignia"
+				}
+			},
+			{
+				"name": "Unknown",
+				"type": [
+					"Unknown 1",
+					"Unknown 2",
+					"Unknown 3"
+				],
+				"faction": "Treasure Hoarders",
+				"location": "Liyue and Dragonspine",
+				"drops": {
+					"level_1": "Treasure Hoarder Insignia",
+					"level_40_plus": "Silver Raven Insignia",
+					"level_60_plus": "Golden Raven Insignia"
+				}
+			},
+			{
+				"name": "Other",
+				"type": [
+					"Handyman",
+					"Pugilist",
+					"Seaman"
+				],
+				"faction": "Treasure Hoarders",
+				"location": "Liyue and Dragonspine",
+				"drops": {
+					"level_1": "Treasure Hoarder Insignia",
+					"level_40_plus": "Silver Raven Insignia",
+					"level_60_plus": "Golden Raven Insignia"
+				}
+			}
+		],
+		"eliteEnemies": [
+			{
+				"name": "Mitachurls",
+				"type": [
+					"Mitachurls"
+				],
+				"faction": "Hillichurls",
+				"location": "All of Teyvat",
+				"drops": {
+					"level_1": "Heavy Horn",
+					"level_40_plus": "Black Bronze Horn",
+					"level_60_plus": "Black Crystal Horn"
+				}
+			},
+			{
+				"name": "Lawachurls",
+				"type": [
+					"Stonehide",
+					"Frostam"
+				],
+				"faction": "Hillichurls",
+				"location": "All of Teyvat",
+				"drops": {
+					"level_1": "Heavy Horn",
+					"level_40_plus": "Black Bronze Horn",
+					"level_60_plus": "Black Crystal Horn"
+				}
+			},
+			{
+				"name": "Abyss Mages",
+				"type": [
+					"cryo",
+					"pyro",
+					"hydro"
+				],
+				"faction": "Abyss Order",
+				"location": "All of Teyvat",
+				"drops": {
+					"level_1": "Dead Ley Line Branch",
+					"level_40_plus": "Dead Ley Line Leaves",
+					"level_60_plus": "Ley Line Sprouts"
+				}
+			},
+			{
+				"name": "Automatons",
+				"type": [
+					"Ruin Guard",
+					"Ruin Hunter",
+					"Ruin Grader"
+				],
+				"faction": "Abyss Order",
+				"location": "All of Teyvat",
+				"drops": {
+					"level_1": "Chaos Device",
+					"level_40_plus": "Chaos Circuit",
+					"level_60_plus": "Chaos Core"
+				}
+			},
+			{
+				"name": "Fatui Cicin Mages",
+				"type": [
+					"electro",
+					"cryo"
+				],
+				"faction": "Fatui",
+				"location": "All of Teyvat",
+				"drops": {
+					"level_1": "Mist Grass Pollen",
+					"level_40_plus": "Mist Grass",
+					"level_60_plus": "Mist Grass Wick"
+				}
+			},
+			{
+				"name": "Fatui Agents",
+				"type": [
+					"pyro"
+				],
+				"faction": "Fatui",
+				"location": "All of Teyvat",
+				"drops": {
+					"level_1": "Hunter's Sacrificial Knife",
+					"level_40_plus": "Agent's Sacrificial Knife",
+					"level_60_plus": "Inspector's Sacrificial Knife"
+				}
+			},
+			{
+				"name": "Eye of the Storm",
+				"type": [],
+				"faction": "Others",
+				"location": "All of Teyvat except Dragonspine",
+				"drops": []
+			},
+			{
+				"name": "Geovishaps",
+				"type": [
+					"geovishap",
+					"hatchling"
+				],
+				"faction": "Others",
+				"location": "Liyue",
+				"drops": {
+					"level_1": "Fragile Bone Shard",
+					"level_40_plus": "Sturdy Bone Shard",
+					"level_60_plus": "Fossilized Bone Shard"
+				}
+			},
+			{
+				"name": "The Great Snowboar King",
+				"type": [],
+				"faction": "Others",
+				"location": "Dragonspine",
+				"drops": {
+					"level_1": "Chilled Meat"
+				}
+			}
+		],
+		"wildlife": [
+			{
+				"name": "birds",
+				"types": {
+					"falcons": [
+						"Brownwing Falcon",
+						"Umbertail Falcon",
+						"Lapis Glede",
+						"Silkwhite Falcon"
+					],
+					"pigeons": [
+						"White Pigeon",
+						"Brightcrown Pigeon",
+						"Graywing Pigeon",
+						"Crimsonflank Pigeon",
+						"Black King Pigeon"
+					],
+					"finches": [
+						"Crimson Finch",
+						"Golden Finch",
+						"Snow Finch",
+						"Emerald Finch"
+					],
+					"ducks": [
+						"Scarletbeak Duck",
+						"Emerald Duck"
+					],
+					"cranes": [
+						"Azure Crane"
+					]
+				},
+				"drop": "fowl"
+			},
+			{
+				"name": "beasts",
+				"types": {
+					"foxes": [
+						"Snow Fox",
+						"Crimson Fox"
+					],
+					"squirrels": [
+						"Squirrel"
+					],
+					"boars": [
+						"Forest Boar",
+						"Baby Forest Boar",
+						"Snowboar",
+						"Great Snowboar King"
+					],
+					"dogs": [
+						"Northland Hound",
+						"Forest-Patrol Hound",
+						"Shiba",
+						"Black-back Hound"
+					],
+					"cats": [
+						"Sapphire",
+						"Jade-Eyed Cat",
+						"Gray Snow Cat",
+						"Northland Cat",
+						"Sheriff Cat",
+						"Black Cat"
+					],
+					"weasels": [
+						"Snow Weasel",
+						"Red-Tailed Weasel",
+						"Boot Weasel"
+					],
+					"weasel_thieves": [
+						"Amateur Weasel Thief",
+						"Hoarder Weasel Thief",
+						"Golden Weasel Thief"
+					]
+				},
+				"drops": [
+					"mora",
+					"raw_meat"
+				]
+			},
+			{
+				"name": "Fish",
+				"types": [
+					"Black-back Bass",
+					"Blue-Fin Bass",
+					"Golden Bass"
+				],
+				"drop": "fish"
+			},
+			{
+				"name": "material_resources",
+				"types": {
+					"crystalflies": [
+						"Anemo Crystalfly",
+						"Cryo Crystalfly",
+						"Geo Crystalfly"
+					],
+					"loaches": [
+						"Golden Loach"
+					],
+					"frogs": [
+						"Frog",
+						"Mud Frog",
+						"Blue Frog"
+					],
+					"crabs": [
+						"Golden Crab",
+						"Sun Grab",
+						"Ocean Crab"
+					],
+					"lizards": [
+						"Blue Horned Lizard",
+						"Red Horned Lizard",
+						"Green Horned Lizard"
+					],
+					"butterflies": [
+						"Blue Butterfly",
+						"Yellow Butterfly"
+					],
+					"fireflies": [
+						"Firefly"
+					]
+				},
+				"drops": [
+					"luminescent_spine",
+					"butterfly_wings",
+					"lizard_tail",
+					"crab",
+					"frog",
+					"loach_pearl",
+					"crystal_core"
+				]
+			}
+		]
+	}
+}

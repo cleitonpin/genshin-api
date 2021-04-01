@@ -9,7 +9,9 @@ import MaterialsController from './controllers/MaterialsController';
 import DomainsController from './controllers/DomainsController';
 import ConsumableController from './controllers/ConsumableController';
 import GadgetsController from './controllers/GadgetController';
+import EnemiesController from './controllers/EnemiesController';
 
+const enemiesController = EnemiesController.getInstance();
 const characterController = CharacterController.getInstance();
 const artifactController = ArtifactController.getInstance();
 const weaponsController = WeaponsController.getInstance();
@@ -45,5 +47,6 @@ routes.get('/consumable/recipe/:name', consumableController.getRecipeName);
 routes.get('/consumable/potions', consumableController.getPotions);
 
 routes.get('/gadgets', gadgetController.getGadgets);
+routes.get('/enemies', enemiesController.getEnemies);
 
 export default routes;
