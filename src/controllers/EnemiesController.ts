@@ -1,11 +1,10 @@
-import { Response, Request, NextFunction } from 'express';
+import { NextFunction, Request, Response } from 'express';
 import HttpException from '../exceptions/HttpException';
-import { ICharacter } from '../interfaces';
-import filePath from '../json/enemies.json'
-
+import { IEnemies } from '../interfaces';
+import filePath from '../json/enemies.json';
 
 export default class EnemiesController {
-    
+
     private static classInstance?: EnemiesController;
 
     public static getInstance() {
@@ -19,11 +18,11 @@ export default class EnemiesController {
     public getEnemies = (req: Request, res: Response, next: NextFunction) => {
         try {
             const stringJson = JSON.stringify(filePath);
-            const enemies = JSON.parse(stringJson);
-            
+            const enemies: IEnemies = JSON.parse(stringJson);
+
             return res.json(enemies);
-        } catch (error) {
-            
+        } catch (err) {
+            next(new HttpException(500, err));
         }
     }
 }

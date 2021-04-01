@@ -33,3 +33,22 @@ export interface IWeapon {
     location: string;
 }
 
+interface ICommonEliteEnemies {
+    name: string;
+    type: Array<string>;
+    faction: string;
+    location: string;
+    drops: object | string;
+}
+
+interface IWildLifeEnemies {
+    name: string;
+    types: object;
+    drops: Array<string> | string;
+}
+
+export interface IEnemies {
+    commonEnemies: Array<ICommonEliteEnemies>;
+    eliteEnemies: Array<ICommonEliteEnemies>;
+    wildlife: Array<IWildLifeEnemies>;
+}

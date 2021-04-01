@@ -385,7 +385,7 @@
 						"Azure Crane"
 					]
 				},
-				"drop": "fowl"
+				"drops": "fowl"
 			},
 			{
 				"name": "beasts",
