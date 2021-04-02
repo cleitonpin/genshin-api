@@ -10,7 +10,6 @@ import {
     weaponRouter
 } from './routes';
 
-
 const router = express.Router();
 
 const enemiesController = EnemiesController.getInstance();
@@ -23,8 +22,9 @@ router.use(materialsRoutes);
 router.use(consumableRoutes);
 router.use(weaponRouter);
 
-router.get('/domains', domainsController.getDomains);
-router.get('/gadgets', gadgetController.getGadgets);
-router.get('/enemies', enemiesController.getEnemies);
+router.get('/:language/domains', domainsController.getDomains);
+router.get('/:language/gadgets', gadgetController.getGadgets);
+router.get('/:language/enemies', enemiesController.getEnemies);
 
 export { router };
+

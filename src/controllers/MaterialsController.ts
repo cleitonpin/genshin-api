@@ -1,12 +1,12 @@
-import { Response, Request, NextFunction } from 'express';
-import filePath from '../json/materials.json';
+import { NextFunction, Request, Response } from 'express';
 // import { IArtifact } from '../interfaces';
 import HttpException from '../exceptions/HttpException';
+import { readFile } from '../util/getPathFile';
 
 export default class MaterialsController {
-    
-    private static classInstance?: MaterialsController;
 
+    private static classInstance?: MaterialsController;
+    private path: string = 'materials.json'
 
     public static getInstance() {
         if (!this.classInstance) {
@@ -15,97 +15,24 @@ export default class MaterialsController {
 
         return this.classInstance;
     }
-    
+
     public getMaterials = (req: Request, res: Response) => {
-        var stringJson = JSON.stringify(filePath);
-        var data = JSON.parse(stringJson);
+        const { language } = req.params
+        var data = readFile(language, this.path)
 
         return res.json(data)
     }
 
-    public getMaterialCharacterAscension = (req: Request, res: Response, next: NextFunction) => {
+    public getMaterialNames = (req: Request, res: Response, next: NextFunction) => {
         try {
-            const stringJson = JSON.stringify(filePath);
-            const { materials } = JSON.parse(stringJson);
+            const { language, material } = req.params
+            const { materials } = readFile(language, this.path)
 
-            return res.json(materials['character-ascension']);
-        } catch (err) {
-            next(new HttpException(500, err));
-        }
-    }
+            if (material) {
+                return res.json(materials[material]);
+            }
 
-    public getMaterialCharacterExperience = (req: Request, res: Response, next: NextFunction) => {
-        try {
-            const stringJson = JSON.stringify(filePath);
-            const { materials } = JSON.parse(stringJson);
-
-            return res.json(materials['character-experience']);
-        } catch (err) {
-            next(new HttpException(500, err));
-        }
-    }
-
-    public getMaterialCommonAscension = (req: Request, res: Response, next: NextFunction) => {
-        try {
-            const stringJson = JSON.stringify(filePath);
-            const { materials } = JSON.parse(stringJson);
-
-            return res.json(materials['common-ascension']);
-        } catch (err) {
-            next(new HttpException(500, err));
-        }
-    }
-
-    public getMaterialLocalSpecialties = (req: Request, res: Response, next: NextFunction) => {
-        try {
-            const stringJson = JSON.stringify(filePath);
-            const { materials } = JSON.parse(stringJson);
-
-            return res.json(materials['local-specialties']);
-        } catch (err) {
-            next(new HttpException(500, err));
-        }
-    }
-
-    public getMaterialTalentBook = (req: Request, res: Response, next: NextFunction) => {
-        try {
-            const stringJson = JSON.stringify(filePath);
-            const { materials } = JSON.parse(stringJson);
-
-            return res.json(materials['talent-book']);
-        } catch (err) {
-            next(new HttpException(500, err));
-        }
-    }
-
-    public getMaterialTalentBoss = (req: Request, res: Response, next: NextFunction) => {
-        try {
-            const stringJson = JSON.stringify(filePath);
-            const { materials } = JSON.parse(stringJson);
-
-            return res.json(materials['talent-boss']);
-        } catch (err) {
-            next(new HttpException(500, err));
-        }
-    }
-
-    public getMaterialWeaponAscension = (req: Request, res: Response, next: NextFunction) => {
-        try {
-            const stringJson = JSON.stringify(filePath);
-            const { materials } = JSON.parse(stringJson);
-
-            return res.json(materials['weapon-ascension']);
-        } catch (err) {
-            next(new HttpException(500, err));
-        }
-    }
-
-    public getMaterialWeaponExperience = (req: Request, res: Response, next: NextFunction) => {
-        try {
-            const stringJson = JSON.stringify(filePath);
-            const { materials } = JSON.parse(stringJson);
-
-            return res.json(materials['weapon-experience']);
+            next(new HttpException(404, 'Not material with name found'));
         } catch (err) {
             next(new HttpException(500, err));
         }

@@ -1,14 +1,15 @@
-import { Response, Request, NextFunction } from 'express';
-import HttpException from '../exceptions/HttpException';
-import { ICharacter } from '../interfaces';
-import filePath from '../json/potions.json'
-import { findJoin } from '../util/getFindOne';
+import { NextFunction, Request, Response } from 'express';
 import { readdirSync } from 'fs';
 import { join } from 'path';
+import HttpException from '../exceptions/HttpException';
+import { IRecipes } from '../interfaces';
+import { findJoin } from '../util/getFindOne';
+import { readFile } from '../util/getPathFile';
 
 export default class RecipeController {
-    
+
     private static classInstance?: RecipeController;
+    private path: string = 'potions.json'
 
     public static getInstance() {
         if (!this.classInstance) {
@@ -20,16 +21,23 @@ export default class RecipeController {
 
     public getRecipe = (req: Request, res: Response, next: NextFunction) => {
         try {
-            const recipesDir = join(__dirname, "..", ".", "json", "recipes");
-            const recipeFiles = readdirSync(recipesDir).filter(file => file.endsWith('.json'));
-            const data: Array<{}> = [];
+            try {
+                const { language } = req.params;
+                const recipesDir = join(__dirname, "..", ".", "json", language, "recipes");
+                const recipeFiles = readdirSync(recipesDir).filter(file => file.endsWith('.json'));
+                const data: Array<{}> = [];
 
-            for (let file = 0; file < recipeFiles.length; file++) {
-                const recipes = require(`../json/recipes/${recipeFiles[file]}`);
-                data.push(recipes);
+                for (let file = 0; file < recipeFiles.length; file++) {
+                    const recipes = require(`../json/${language}/recipes/${recipeFiles[file]}`);
+                    data.push(recipes);
+                }
+
+                return res.json(data);
+            } catch (e) {
+                return res.json({
+                    message: 'This language not supported'
+                })
             }
-
-            return res.json(data);
         } catch (err) {
             next(new HttpException(500, err));
         }
@@ -37,34 +45,30 @@ export default class RecipeController {
 
     public getRecipeName = (req: Request, res: Response, next: NextFunction) => {
         try {
-            const { name } = req.params;
-            const recipe: object = this.getJSON(findJoin(name));
+            const { name, language } = req.params;
+            const recipe: IRecipes = this.getJSON(findJoin(name), language);
 
-            return recipe === undefined ? 
+            return recipe === undefined ?
                 next(new HttpException(404, `No recipe with name ${name} found.`)) :
                 res.json(recipe);
         } catch (error) {
-            
+
         }
     }
 
     public getPotions = (req: Request, res: Response, next: NextFunction) => {
-        try {
-            const stringJson = JSON.stringify(filePath);
-            const potions = JSON.parse(stringJson);
-            
-            return res.json(potions);
-        } catch (error) {
-            
-        }
+        const { language } = req.params;
+        const potions = readFile(language, this.path);
+
+        return res.json(potions);
     }
 
-    private getJSON(recipe: string) {
+    private getJSON(recipe: string, language: string) {
         try {
-            return require(`../json/recipes/${recipe}.json`)
+            return require(`../json/${language}/recipes/${recipe}.json`)
         } catch (e) {
             return undefined;
         }
     }
-    
+
 }

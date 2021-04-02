@@ -1,12 +1,10 @@
-import { Response, Request, NextFunction } from 'express';
-import filePath from '../json/domains.json';
-// import { IArtifact } from '../interfaces';
-import HttpException from '../exceptions/HttpException';
+import { Request, Response } from 'express';
+import { readFile } from '../util/getPathFile';
 
 export default class DomainsController {
-    
-    private static classInstance?: DomainsController;
 
+    private static classInstance?: DomainsController;
+    private path: string = 'domains.json'
 
     public static getInstance() {
         if (!this.classInstance) {
@@ -15,10 +13,10 @@ export default class DomainsController {
 
         return this.classInstance;
     }
-    
+
     public getDomains = (req: Request, res: Response) => {
-        var stringJson = JSON.stringify(filePath);
-        var data = JSON.parse(stringJson);
+        const { language } = req.params
+        const data = readFile(language, this.path);
 
         return res.json(data)
     }

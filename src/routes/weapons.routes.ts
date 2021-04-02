@@ -5,7 +5,7 @@ const weaponsController = WeaponsController.getInstance();
 
 const weaponRouter = Router();
 
-weaponRouter.get('/weapons', weaponsController.getWeapons);
-weaponRouter.get('/weapon/:name', weaponsController.getWeaponsName)
+weaponRouter.get('/:language/weapons', weaponsController.getWeapons);
+weaponRouter.get('/:language/weapon/:name', weaponsController.getWeaponsName)
 
 export default weaponRouter;

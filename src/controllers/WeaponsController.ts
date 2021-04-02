@@ -1,13 +1,13 @@
-import { Response, Request, NextFunction } from 'express';
-import filePath from '../json/weapons.json';
-import { IWeapon } from '../interfaces';
-import { findOne } from '../util/getFindOne'
+import { NextFunction, Request, Response } from 'express';
 import HttpException from '../exceptions/HttpException';
+import { IWeapon } from '../interfaces';
+import { findOne } from '../util/getFindOne';
+import { readFile } from '../util/getPathFile';
 
 export default class WeaponsController {
-    
-    private static classInstance?: WeaponsController;
 
+    private static classInstance?: WeaponsController;
+    private path: string = 'weapons.json'
 
     public static getInstance() {
         if (!this.classInstance) {
@@ -16,12 +16,12 @@ export default class WeaponsController {
 
         return this.classInstance;
     }
-    
+
     public getWeapons = (req: Request, res: Response, next: NextFunction) => {
         try {
-            var stringJson = JSON.stringify(filePath);
-            var data = JSON.parse(stringJson);
-    
+            const { language } = req.params
+            var data = readFile(language, this.path)
+
             return res.json(data)
         } catch (err) {
             next(new HttpException(404, err))
@@ -30,15 +30,18 @@ export default class WeaponsController {
 
     public getWeaponsName = (req: Request, res: Response, next: NextFunction) => {
         try {
-            const { name } = req.params;
-            const stringJson = JSON.stringify(filePath);
-            const { weapons } = JSON.parse(stringJson);
-            
-            const weapon: Array<{}> = weapons.filter((w: IWeapon) => findOne(w.name) === findOne(name));
+            const { name, language } = req.params;
+            const { weapons } = readFile(language, this.path)
 
-            return weapon.length === 0 ? 
-                next(new HttpException(404, `No weapon with ${name} name found.`)) :
-                res.json(weapon);
+            if (weapons) {
+                const weapon: Array<{}> = weapons.filter((w: IWeapon) => findOne(w.name) === findOne(name));
+
+                return weapon.length === 0 ?
+                    next(new HttpException(404, `No weapon with ${name} name found.`)) :
+                    res.json(weapon);
+            }
+
+            next(new HttpException(500, 'This language not supported'));
         } catch (err) {
             next(new HttpException(500, err));
         }

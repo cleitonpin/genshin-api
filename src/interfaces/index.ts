@@ -52,3 +52,19 @@ export interface IEnemies {
     eliteEnemies: Array<ICommonEliteEnemies>;
     wildlife: Array<IWildLifeEnemies>;
 }
+
+export interface IRecipes {
+    name: string;
+    rarity: string;
+    foodrecipetype: string;
+    effect: string;
+    description: string;
+    buffs: Array<string>;
+    images: {
+        image: string;
+    };
+    ingredientes: Array<string>;
+    source: string;
+    base: string;
+    cook: string;
+}

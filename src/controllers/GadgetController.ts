@@ -1,12 +1,11 @@
-import { Response, Request, NextFunction } from 'express';
-import HttpException from '../exceptions/HttpException';
-import { ICharacter } from '../interfaces';
-import filePath from '../json/gadgets.json'
+import { NextFunction, Request, Response } from 'express';
+import { readFile } from '../util/getPathFile';
 
 
 export default class GadgetController {
-    
+
     private static classInstance?: GadgetController;
+    private path: string = 'gadgets.json';
 
     public static getInstance() {
         if (!this.classInstance) {
@@ -17,15 +16,10 @@ export default class GadgetController {
     }
 
     public getGadgets = (req: Request, res: Response, next: NextFunction) => {
-        try {
-            const stringJson = JSON.stringify(filePath);
-            const gadgets = JSON.parse(stringJson);
-            
-            return res.json(gadgets);
-        } catch (error) {
-            
-        }
-    }
 
-    
+        const { language } = req.params
+        const gadgets = readFile(language, this.path);
+
+        return res.json(gadgets);
+    }
 }
