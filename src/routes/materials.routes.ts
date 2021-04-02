@@ -14,4 +14,4 @@ materialsRoutes.get('/materials/talent-boss', materialController.getMaterialTale
 materialsRoutes.get('/materials/weapon-ascension', materialController.getMaterialWeaponAscension);
 materialsRoutes.get('/materials/weapon-experience', materialController.getMaterialWeaponExperience);
 
-export { materialsRoutes };
+export default materialsRoutes;

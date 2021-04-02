@@ -8,4 +8,4 @@ consumableRoutes.get('/consumable/recipe', consumableController.getRecipe);
 consumableRoutes.get('/consumable/recipe/:name', consumableController.getRecipeName);
 consumableRoutes.get('/consumable/potions', consumableController.getPotions);
 
-export { consumableRoutes };
+export default consumableRoutes;

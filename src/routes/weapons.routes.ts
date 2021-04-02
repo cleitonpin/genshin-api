@@ -8,4 +8,4 @@ const weaponRouter = Router();
 weaponRouter.get('/weapons', weaponsController.getWeapons);
 weaponRouter.get('/weapon/:name', weaponsController.getWeaponsName)
 
-export { weaponRouter };
+export default weaponRouter;

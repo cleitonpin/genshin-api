@@ -9,4 +9,4 @@ characterRoutes.get('/character', characterController.getCharacters);
 characterRoutes.get('/character/:id', characterController.getCharacterName);
 characterRoutes.get('/character/element/:element', characterController.getCharacterByElement);
 
-export { characterRoutes };
+export default characterRoutes;

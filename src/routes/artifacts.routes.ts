@@ -8,4 +8,4 @@ const artifactRoutes = Router();
 artifactRoutes.get('/artifact', artifactController.getArtifats);
 artifactRoutes.get('/artifact/:id', artifactController.getArtifactName);
 
-export { artifactRoutes };
+export default artifactRoutes;

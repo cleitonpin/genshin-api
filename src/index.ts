@@ -1,18 +1,30 @@
-import cors from 'cors';
-import * as dotenv from 'dotenv';
 import express from 'express';
-import errorMiddleware from './middleware/error.middleware';
-import { routes } from './routes';
+import DomainsController from './controllers/DomainsController';
+import EnemiesController from './controllers/EnemiesController';
+import GadgetsController from './controllers/GadgetController';
+import {
+    artifactRoutes,
+    characterRoutes,
+    consumableRoutes,
+    materialsRoutes,
+    weaponRouter
+} from './routes';
 
-dotenv.config();
-const app = express();
-const PORT = process.env.PORT || 8000;
 
-app.use(cors())
-app.use(express.json());
-app.use(errorMiddleware);
-app.use(routes);
+const router = express.Router();
 
-app.listen(PORT, () => {
-    console.log(`⚡️ [Server]: running at http://localhost:${PORT}`);
-})
+const enemiesController = EnemiesController.getInstance();
+const domainsController = DomainsController.getInstance();
+const gadgetController = GadgetsController.getInstance();
+
+router.use(artifactRoutes);
+router.use(characterRoutes);
+router.use(materialsRoutes);
+router.use(consumableRoutes);
+router.use(weaponRouter);
+
+router.get('/domains', domainsController.getDomains);
+router.get('/gadgets', gadgetController.getGadgets);
+router.get('/enemies', enemiesController.getEnemies);
+
+export { router };
