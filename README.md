@@ -17,5 +17,5 @@ $ docker ps
 $ docker logs <container id>
 
 # Example
-$ ⚡️ [Server]: running at http://localhost:${PORT}
+⚡️ [Server]: running at http://localhost:<port>
 ```
