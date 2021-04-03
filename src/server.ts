@@ -6,10 +6,16 @@ import errorMiddleware from './middleware/error.middleware';
 
 dotenv.config();
 const app = express();
-const PORT = process.env.PORT || 8000;
+// const PORT = process.env.PORT || 8000;
+const PORT = 8080;
 
 app.use(cors())
 app.use(express.json());
+
+app.get('/', (req, res) => {
+    return res.send('Oi')
+})
+
 app.use('/v1', router);
 app.use(errorMiddleware);
 
