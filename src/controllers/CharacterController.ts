@@ -20,17 +20,20 @@ export default class CharacterController {
   public getCharacters = (req: Request, res: Response, next: NextFunction) => {
     const vision = req.query.vision as string;
     const { language } = req.params;
-
+    console.log(vision)
     if (vision) {
       try {
         const { characters } = readFile(language, this.path);
         const character: Array<{}> = characters.filter((c: ICharacter) => findOne(c.vision) === findOne(vision));
+        //GENSHIN/Characters/Albedo.png
 
-        return character.length === 0 ?
-          next(new HttpException(404, `No character with ${vision} element found.`)) :
-          res.json(character);
+        if (!character.length) {
+          throw new HttpException(404, `Characher with vision ${vision} not found`);
+        }
+
+        return res.json({ characters: character });
       } catch (err: any) {
-        next(new HttpException(500, err.message));
+        throw new HttpException(500, err.message);
       }
     }
     const data = readFile(language, this.path);
@@ -55,7 +58,7 @@ export default class CharacterController {
         message: 'This language not supported'
       })
     } catch (err: any) {
-      next(new HttpException(500, err));
+      throw new HttpException(500, err);
     }
   }
 
@@ -67,13 +70,16 @@ export default class CharacterController {
       if (characters) {
         const character: Array<ICharacter> = characters.filter((c: ICharacter) => findOne(c.vision) === findOne(element));
 
-        return character.length === 0 ?
-          next(new HttpException(404, `No weapon with ${element} element found.`)) :
-          res.json(character);
+        if (!character.length) {
+          throw new HttpException(404, `No character with ${element} element found.`);
+        }
+
+        return res.json(character);
       }
-      next(new HttpException(500, 'This language not supported'));
+
+      throw new HttpException(500, 'This language not supported')
     } catch (err: any) {
-      next(new HttpException(500, err));
+      throw new HttpException(500, err);
     }
   }
 }
