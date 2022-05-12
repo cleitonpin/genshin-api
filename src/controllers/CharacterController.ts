@@ -20,12 +20,11 @@ export default class CharacterController {
   public getCharacters = (req: Request, res: Response, next: NextFunction) => {
     const vision = req.query.vision as string;
     const { language } = req.params;
-    console.log(vision)
+
     if (vision) {
       try {
         const { characters } = readFile(language, this.path);
         const character: Array<{}> = characters.filter((c: ICharacter) => findOne(c.vision) === findOne(vision));
-        //GENSHIN/Characters/Albedo.png
 
         if (!character.length) {
           throw new HttpException(404, `Characher with vision ${vision} not found`);
@@ -46,17 +45,13 @@ export default class CharacterController {
       const { id, language } = req.params;
       const { characters } = readFile(language, this.path);
 
-      if (characters) {
-        const character: Array<ICharacter> = characters && characters.filter((c: ICharacter) => c.id === id.toLowerCase());
+      const character: Array<ICharacter> = characters.filter((c: ICharacter) => c.id === id.toLowerCase());
 
-        return character.length === 0 ?
-          next(new HttpException(404, `No weapon with ${id} id found.`)) :
-          res.json(character);
+      if (!character.length) {
+        throw new HttpException(404, `No character with ${id} id found.`);
       }
 
-      return res.json({
-        message: 'This language not supported'
-      })
+      return res.json(character);
     } catch (err: any) {
       throw new HttpException(500, err);
     }

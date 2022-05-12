@@ -1,25 +1,24 @@
 import { NextFunction, Request, Response } from 'express';
 import { readFile } from '../util/getPathFile';
 
-
 export default class GadgetController {
 
-    private static classInstance?: GadgetController;
-    private path: string = 'gadgets.json';
+  private static classInstance?: GadgetController;
+  private path: string = 'gadgets.json';
 
-    public static getInstance() {
-        if (!this.classInstance) {
-            this.classInstance = new GadgetController();
-        }
-
-        return this.classInstance;
+  public static getInstance() {
+    if (!this.classInstance) {
+      this.classInstance = new GadgetController();
     }
 
-    public getGadgets = (req: Request, res: Response, next: NextFunction) => {
+    return this.classInstance;
+  }
 
-        const { language } = req.params
-        const gadgets = readFile(language, this.path);
+  public getGadgets = (req: Request, res: Response, next: NextFunction) => {
 
-        return res.json(gadgets);
-    }
+    const { language } = req.params
+    const gadgets = readFile(language, this.path);
+
+    return res.json(gadgets);
+  }
 }
