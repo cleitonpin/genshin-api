@@ -1,3 +1,4 @@
+import "express-async-errors"
 import cors from 'cors';
 import * as dotenv from 'dotenv';
 import express from 'express';
@@ -13,12 +14,12 @@ app.use(cors())
 app.use(express.json());
 
 app.get('/', (req, res) => {
-    return res.send('Oi')
+  return res.send('Oi')
 })
 
 app.use('/v1', router);
 app.use(errorMiddleware);
 
 app.listen(PORT, () => {
-    console.log(`⚡️ [Server]: running at http://localhost:${PORT}`);
+  console.log(`⚡️ [Server]: running at http://localhost:${PORT}`);
 })

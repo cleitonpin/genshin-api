@@ -3375,6 +3375,7 @@
             "description": "The Sustainer is dying, the Creator has yet to return.\nBut the world won't burn again, because you will ascend to the seat of 「God」.",
             "vision": "Geo",
             "weapon": "Sword",
+            "icon": "/GENSHIN/Characters/Traveler%20(Geo).png",
             "rarity": 5,
             "skillTalents": [
               {
@@ -4265,6 +4266,7 @@
           "nation": "Liyue",
           "vision": "Electro",
           "weapon": "Claymore",
+          "icon": "/GENSHIN/Characters/Beidou.png",
           "rarity": 4,
           "skillTalents": [
             {
@@ -4430,6 +4432,7 @@
           "nation": "Liyue",
           "vision": "Pyro",
           "weapon": "Polearm",
+          "icon": "/GENSHIN/Characters/Hu%20Tao.png",
           "rarity": 5,
           "skillTalents": [
             {
