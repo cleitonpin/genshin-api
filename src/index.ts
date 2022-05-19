@@ -1,7 +1,7 @@
 import express from 'express';
-import DomainsController from './controllers/DomainsController';
-import EnemiesController from './controllers/EnemiesController';
-import GadgetsController from './controllers/GadgetController';
+import DomainsController from './controllers/domain';
+import EnemiesController from './controllers/enemies';
+import GadgetsController from './controllers/gadged';
 import {
     artifactRoutes,
     characterRoutes,

@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import MaterialsController from '../controllers/MaterialsController';
+import MaterialsController from '../controllers/materials';
 
 const materialController = MaterialsController.getInstance();
 const materialsRoutes = Router();

@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import ConsumableController from '../controllers/ConsumableController';
+import ConsumableController from '../controllers/consumable';
 
 const consumableController = ConsumableController.getInstance();
 const consumableRoutes = Router();

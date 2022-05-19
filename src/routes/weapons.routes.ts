@@ -1,5 +1,5 @@
 import { Router } from "express";
-import WeaponsController from "../controllers/WeaponsController";
+import WeaponsController from "../controllers/weapons";
 
 const weaponsController = WeaponsController.getInstance();
 
