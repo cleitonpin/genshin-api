@@ -7,6 +7,7 @@ import {
     characterRoutes,
     consumableRoutes,
     materialsRoutes,
+    usersRouter,
     weaponRouter
 } from './routes';
 
@@ -17,6 +18,7 @@ const domainsController = DomainsController.getInstance();
 const gadgetController = GadgetsController.getInstance();
 
 router.use(artifactRoutes);
+router.use(usersRouter);
 router.use(characterRoutes);
 router.use(materialsRoutes);
 router.use(consumableRoutes);

@@ -1,11 +1,11 @@
-import "express-async-errors"
+import 'express-async-errors'
+import 'dotenv/config'
+import './database'
 import cors from 'cors';
-import * as dotenv from 'dotenv';
 import express from 'express';
 import { router } from '.';
 import errorMiddleware from './middleware/error.middleware';
 
-dotenv.config();
 const app = express();
 // const PORT = process.env.PORT || 8000;
 const PORT = 8080;
