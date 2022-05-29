@@ -6,7 +6,7 @@ function errorMiddleware(
   req: Request,
   res: Response,
   next: NextFunction): Response {
-
+  console.log(err)
   if (err instanceof HttpException) {
     return res.status(err.status).json({
       message: err.message

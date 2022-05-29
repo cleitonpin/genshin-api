@@ -7,6 +7,7 @@ export interface IUser {
   password?: string;
   img_url: string;
   createdAt?: Date;
+  username: string;
 }
 
 export interface IUserDocument extends IUser, Document { }
@@ -24,6 +25,11 @@ const UserSchema = new mongoose.Schema({
   password: {
     type: String,
     required: true,
+  },
+  username: {
+    type: String,
+    required: true,
+    trim: true,
   },
   img_url: {
     type: String,
