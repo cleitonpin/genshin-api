@@ -1,282 +1,282 @@
-
-{
-    "artifacts": [
-        {
-            "id": "adventurer",
-            "name": "Adventurer",
-            "rarity": 3,
-            "two_piece_bonus": "Max HP increased by 1,000.",
-            "four_piece_bonus": "Opening chest regenerates 30% Max HP over 5s.",
-            "domain": {
-                "name": "Midsummer Courtyard",
-                "drops_max": ["Thundering Fury", "Thundersoother", "Resolution of Sojourner", "Adventurer"]
-            }
-        },
-        {
-            "id": "archaic_petra",
-            "name": "Archaic Petra",
-            "rarity": 5,
-            "two_piece_bonus": "Gain a 15% Geo DMG Bonus.",
-            "four_piece_bonus": "Upon obtaining an Elemental Shard created through a Crystallize Reaction, all party members gain a 35% DMG Bonus for that particular element for 10s. Only one form of Elemental DMG Bonus can be gained in this manner at any one time.",
-            "domain": {
-                "name": "Domain Of Guyun",
-                "drops_max": ["Retracing Bolide", "Archaic Petra", "Brave Heart", "Lucky Dog"]
-            }
-        },
-        {
-            "id": "berserker",
-            "name": "Berserker",
-            "max-rarity": 4,
-            "two_piece_bonus": "CRIT Rate +12%",
-            "four_piece_bonus": "When HP is below 70%, CRIT Rate increases by an additional 24%."
-        },
-        {
-            "id": "bloodstained_chivalry",
-            "name": "Bloodstained Chivalry",
-            "max-rarity": 5,
-            "two_piece_bonus": "Physical DMG +25%",
-            "four_piece_bonus": "After defeating an opponent, increases Charged Attack DMG by 50%, and reduces its Stamina cost to 0 for 10s.",
-            "domain": {
-                "name": "Clear Pool and Mountain Cavern",
-                "drops_max": ["Noblesse Oblige", "Bloodstained Chivalry", "Scholar", "Gambler"]
-            }
-        },
-        {
-            "id": "brave_heart",
-            "name": "Brave Heart",
-            "max-rarity": 4,
-            "two_piece_bonus": "ATK +18%",
-            "four_piece_bonus": "Increases DMG by 30% against enemies with more than 50% HP.",
-            "domain": {
-                "name": "Domain Of Guyun",
-                "drops_max": ["Retracing Bolide", "Archaic Petra", "Brave Heart", "Lucky Dog"]
-            }
-        },
-        {
-            "id": "crimsom_witch_of_flames",
-            "name": "Crimson Witch of Flames",
-            "max-rarity": 5,
-            "two_piece_bonus": "Gain a 15% Pyro DMG Bonus",
-            "four_piece_bonus": "Increases Overloaded and Burning DMG by 40%. Increases Vaporize and Melt DMG by 15%. Using an Elemental Skill increases two_Piece_Set effects by 50% for 10s. Max 3 stacks.",
-            "domain": {
-                "name": "Hidden Palace of Zhou Formula",
-                "drops_max": ["Crimson Witch of Flames", "Lavawalker", "Martial Artist", "Defender's Will"]
-            }
-        },
-        {
-            "id": "defenders_will",
-            "name": "Defender's Will",
-            "max-rarity": 4,
-            "two_piece_bonus": "Base DEF +30%",
-            "four_piece_bonus": "Increases Elemental RES by 30% for each element present in the party",
-            "domain": {
-                "name": "Hidden Palace of Zhou Formula",
-                "name_secondary": "Peak of Vindagnyr",
-                "drops_max": ["Crimson Witch of Flames", "Lavawalker", "Martial Artist", "Defender's Will"]
-            }
-        },
-        {
-            "id": "gambler",
-            "name": "Gambler",
-            "max-rarity": 4,
-            "two_piece_bonus": "Elemental Skill DMG increased by 20%",
-            "four_piece_bonus": "Defeating an enemy has 100% chance to remove Elemental Skill CD. Can only occur once every 15s.",
-            "domain": {
-                "name": "Peak of Vindagnyr",
-                "drops_max": ["Heart of Depthy", "Blizzard Strayer", "Gambler", "Defender's Will"]
-            }
-        },
-        {
-            "id": "gladiators_finale",
-            "name": "Gladiator's Finale",
-            "max-rarity": 5,
-            "two_piece_bonus": "ATK +18%",
-            "four_piece_bonus": "If the wielder of this artifact set uses a Sword, Claymore or Polearm, increases their Normal Attack DMG by 35%."
-        },
-        {
-            "id": "instructor",
-            "name": "Instructor",
-            "max-rarity": 4,
-            "two_piece_bonus": "Increases Elemental Mastery by 80",
-            "four_piece_bonus": "After using Elemental Skill, increases all party members' Elemental Mastery by 120 for 8s."
-        },
-        {
-            "id": "lavawalker",
-            "name": "Lavawalker",
-            "max-rarity": 5,
-            "two_piece_bonus": "Pyro RES increased by 40%",
-            "four_piece_bonus": "Increases DMG against enemies that are Burning or affected by Pyro by 35%.",
-            "domain": {
-                "name": "Hidden Palace of Zhou Formula",
-                "drops_max": ["Crimson Witch of Flames", "Lavawalker", "Martial Artist", "Defender's Will"]
-            }
-        },
-        {
-            "id": "lucky_dog",
-            "name": "Lucky Dog",
-            "max-rarity": 3,
-            "two_piece_bonus": "DEF increased by 100.",
-            "four_piece_bonus": "Picking up Mora restores 300 HP.",
-            "domain": {
-                "name": "Domain Of Guyun",
-                "drops_max": ["Retracing Bolide", "Archaic Petra", "Brave Heart", "Lucky Dog"]
-            }
-        },
-        {
-            "id": "maiden_beloved",
-            "name": "Maiden Beloved",
-            "max-rarity": 5,
-            "two_piece_bonus": "Character Healing Effectiveness +15%",
-            "four_piece_bonus": "Using an Elemental Skill or Burst increases healing received by all party members by 20% for 10s.",
-            "domain": {
-                "name": "Valley of Remembrance",
-                "drops_max": ["Viridescent Venerer", "Maiden Beloved", "Tiny Miracle", "Traveling Doctor"]
-            }
-        },
-        {
-            "id": "martial_artist",
-            "name": "Martial Artist",
-            "max-rarity": 4,
-            "two_piece_bonus": "Increases Normal Attack and Charged Attack DMG by 15%.",
-            "four_piece_bonus": "After using Elemental Skill, increases Normal Attack and Charged Attack DMG by 25% for 8s.",
-            "domain": {
-                "name": "Hidden Palace of Zhou Formula",
-                "drops_max": ["Crimson Witch of Flames", "Lavawalker", "Martial Artist", "Defender's Will"]
-            }
-        },
-        {
-            "id": "noblesse_oblige",
-            "name": "Noblesse Oblige",
-            "max-rarity": 5,
-            "two_piece_bonus": "Elemental Burst DMG +20%",
-            "four_piece_bonus": "Using an Elemental Burst increase all party memebers' ATK by 20% for 12s. This effect cannot stack.",
-            "domain": {
-                "name": "Clear Pool and Mountain Cavern",
-                "drops_max": ["Noblesse Oblige", "Bloodstained Chivalry", "Scholar", "Gambler"]
-            }
-        },
-        {
-            "id": "resolution_of_sojourner",
-            "name": "Resolution of Sojourner",
-            "max-rarity": 4,
-            "two_piece_bonus": "ATK +18%",
-            "four_piece_bonus": "Increases Charged Attack CRIT Rate by 30%.",
-            "domain": {
-                "name": "Midsummer Courtyard",
-                "drops_max": ["Thundering Fury", "Thundersoother", "Resolution of Sojourner", "Adventurer"]
-            }
-        },
-        {
-            "id": "retracing_bolide",
-            "name": "Retracing Bolide",
-            "max-rarity": 5,
-            "two_piece_bonus": "Increases Shield Strength by 35%.",
-            "four_piece_bonus": "While protected by a shield, gain an additional 40% Normal and Charged Attack DMG.",
-            "domain": {
-                "name": "Domain Of Guyun",
-                "drops_max": ["Retracing Bolide", "Archaic Petra", "Brave Heart", "Lucky Dog"]
-            }
-        },
-        {
-            "id": "scholar",
-            "name": "Scholar",
-            "max-rarity": 4,
-            "two_piece_bonus": "Energy Recharge +20%.",
-            "four_piece_bonus": "Gaining Energy gives 3 Energy to all party members who have a bow or a catalyst equipped. Can only occurs once every 3s.",
-            "domain": {
-                "name": "Clear Pool and Mountain Cavern",
-                "drops_max": ["Noblesse Oblige", "Bloodstained Chivalry", "Scholar", "Gambler"]
-            }
-        },
-        {
-            "name": "The Exile",
-            "max-rarity": 4,
-            "two_piece_bonus": "Energy Recharge +20%.",
-            "four_piece_bonus": "Using an Elemental Burst regenerates 2 Energy for other party members every 2s for 6s. This effect cannot stack."
-        },
-        {
-            "id": "thundering_fury",
-            "name": "Thundering Fury",
-            "max-rarity": 5,
-            "two_piece_bonus": "Gain a 15% Electro DMG Bonus.",
-            "four_piece_bonus": "Increases damage caused by Overloaded, Electro-Charged, and Superconduct DMG by 40%. Triggering such effects decreases Elemental Skill CD by 1s. Can only occur once every 0.8s.",
-            "domain": {
-                "name": "Midsummer Courtyard",
-                "drops_max": ["Thundering Fury", "Thundersoother", "Resolution of Sojourner", "Adventurer"]
-            }
-        },
-        {
-            "id": "thundersoother",
-            "name": "Thundersoother",
-            "max-rarity": 5,
-            "two_piece_bonus": "Electro RES increased by 40%",
-            "four_piece_bonus": "Increases DMG against enemies affected by Electro by 35%.",
-            "domain": {
-                "name": "Midsummer Courtyard",
-                "drops_max": ["Thundering Fury", "Thundersoother", "Resolution of Sojourner", "Adventurer"]
-            }
-        },
-        {
-            "id": "tiny_miracle",
-            "name": "Tiny Miracle",
-            "max-rarity": 4,
-            "two_piece_bonus": "All Elemental RES increased by 20%",
-            "four_piece_bonus": "Incoming elemental DMG increases corresponding Elemental RES by 30% for 10s. Can only occur once every 10s.",
-            "domain": {
-                "name": "Valley of Remembrance",
-                "drops_max": ["Viridescent Venerer", "Maiden Beloved", "Tiny Miracle", "Traveling Doctor"]
-            }
-        },
-        {
-            "id": "traveling_doctor",
-            "name": "Traveling Doctor",
-            "max-rarity": 3,
-            "two_piece_bonus": "Increases incoming healing by 20%.",
-            "four_piece_bonus": "Using Elemental Burst restores 20% HP.",
-            "domain": {
-                "name": "Valley of Remembrance",
-                "drops_max": ["Viridescent Venerer", "Maiden Beloved", "Tiny Miracle", "Traveling Doctor"]
-            }
-        },
-        {
-            "id": "viridescent_venerer",
-            "name": "Viridescent Venerer",
-            "max-rarity": 5,
-            "two_piece_bonus": "Gain a 15% Anemo DMG Bonus.",
-            "four_piece_bonus": "Increases Swirl DMG by 60%. Decreases opponent's Elemental RES to the element infused in the Swirl by 40% for 10s.",
-            "domain": {
-                "name": "Valley of Remembrance",
-                "drops_max": ["Viridescent Venerer", "Maiden Beloved", "Tiny Miracle", "Traveling Doctor"]
-            }
-        },
-        {
-            "id": "wanderers_troupe",
-            "name": "Wanderer's Troupe",
-            "max-rarity": 5,
-            "two_piece_bonus": "Elemental Mastery +80",
-            "four_piece_bonus": "Increases Charged Attack DMG by 35% if the character uses a Catalyst or Bow."
-        },
-        {
-            "id": "blizzard_strayer",
-            "name": "Blizzard Strayer",
-            "max-rarity": 5,
-            "two_piece_bonus": "Cryo DMG Bonus +15%",
-            "four_piece_bonus": "When a character attacks an enemy affected by Cryo, their CRIT Rate is increased by 20%. If the enemy is Frozen, CRIT Rate is increased by an additional 20%.",
-            "domain": {
-                "name": "Peak of Vindagnyr",
-                "drops_max": ["Heart of Depthy", "Blizzard Strayer", "Gambler", "Defender's Will"]
-            }
-        },
-        {
-            "id": "heart_of_depth",
-            "name": "Heart of Depth",
-            "max-rarity": 5,
-            "two_piece_bonus": "Hydro DMG Bonus +15%",
-            "four_piece_bonus": "After using Elemental Skill, increases Normal Attack and Charged Attack DMG by 30% for 15s.",
-            "domain": {
-                "name": "Peak of Vindagnyr",
-                "drops_max": ["Heart of Depthy", "Blizzard Strayer", "Gambler", "Defender's Will"]
-            }
-        }
-    ]
-}
+[
+  {
+    "id": "Adventurer",
+    "name": "Adventurer",
+    "icon": "https://rerollcdn.com/GENSHIN/Gear/adventurer.png",
+    "max_rarity": 3,
+    "two_piece_bonus": "Max HP increased by 1,000.",
+    "four_piece_bonus": "Opening chest regenerates 30% Max HP over 5s."
+  },
+  {
+    "id": "Archaic Petra",
+    "name": "Archaic Petra",
+    "icon": "https://rerollcdn.com/GENSHIN/Gear/archaic_petra.png",
+    "max_rarity": 5,
+    "two_piece_bonus": "Gain a 15% Geo DMG Bonus.",
+    "four_piece_bonus": "Upon obtaining an Elemental Shard created through a Crystallize Reaction, all party members gain a 35% DMG Bonus for that particular element for 10s. Only one form of Elemental DMG Bonus can be gained in this manner at any one time."
+  },
+  {
+    "id": "Berserker",
+    "name": "Berserker",
+    "icon": "https://rerollcdn.com/GENSHIN/Gear/berserker.png",
+    "max_rarity": 4,
+    "two_piece_bonus": "CRIT Rate +12%",
+    "four_piece_bonus": "When HP is below 70%, CRIT Rate increases by an additional 24%."
+  },
+  {
+    "id": "Blizzard Strayer",
+    "name": "Blizzard Strayer",
+    "icon": "https://rerollcdn.com/GENSHIN/Gear/blizzard_strayer.png",
+    "max_rarity": 5,
+    "two_piece_bonus": "Cryo DMG Bonus +15%",
+    "four_piece_bonus": "When a character attacks an enemy affected by Cryo, their CRIT Rate is increased by 20%. If the enemy is Frozen, CRIT Rate is increased by an additional 20%."
+  },
+  {
+    "id": "Bloodstained Chivalry",
+    "name": "Bloodstained Chivalry",
+    "icon": "https://rerollcdn.com/GENSHIN/Gear/bloodstained_chivalry.png",
+    "max_rarity": 5,
+    "two_piece_bonus": "Physical DMG +25%",
+    "four_piece_bonus": "After defeating an opponent, increases Charged Attack DMG by 50%, and reduces its Stamina cost to 0 for 10s."
+  },
+  {
+    "id": "Brave Heart",
+    "name": "Brave Heart",
+    "icon": "https://rerollcdn.com/GENSHIN/Gear/brave_heart.png",
+    "max_rarity": 4,
+    "two_piece_bonus": "ATK +18%",
+    "four_piece_bonus": "Increases DMG by 30% against enemies with more than 50% HP."
+  },
+  {
+    "id": "Crimson Witch of Flames",
+    "name": "Crimson Witch of Flames",
+    "icon": "https://rerollcdn.com/GENSHIN/Gear/crimson_witch_of_flames.png",
+    "max_rarity": 5,
+    "two_piece_bonus": "Gain a 15% Pyro DMG Bonus.",
+    "four_piece_bonus": "Increases Overloaded and Burning DMG by 40%. Increases Vaporize and Melt DMG by 15%. Using an Elemental Skill increases 2-Piece Set effects by 50% for 10s. Max 3 stacks."
+  },
+  {
+    "id": "Defender's Will",
+    "name": "Defender's Will",
+    "icon": "https://rerollcdn.com/GENSHIN/Gear/defender's_will.png",
+    "max_rarity": 4,
+    "two_piece_bonus": "Base DEF +30%",
+    "four_piece_bonus": "Increases Elemental RES by 30% for each element present in the party."
+  },
+  {
+    "id": "Echoes of an Offering",
+    "name": "Echoes of an Offering",
+    "icon": "https://rerollcdn.com/GENSHIN/Gear/echoes_of_an_offering.png",
+    "max_rarity": 5,
+    "two_piece_bonus": "ATK +18%",
+    "four_piece_bonus": "When Normal Attacks hit opponents, there is a 36% chance that it will trigger Valley Rite, which will increase Normal Attack DMG by 70% of ATK. This effect will be dispelled 0.05s after a Normal Attack deals DMG. If a Normal Attack fails to trigger Valley Rite, the odds of it triggering the next time will increase by 20%. This trigger can occur once every 0.2s."
+  },
+  {
+    "id": "Emblem of Severed Fate",
+    "name": "Emblem of Severed Fate",
+    "icon": "https://rerollcdn.com/GENSHIN/Gear/emblem_of_severed_fate.png",
+    "max_rarity": 5,
+    "two_piece_bonus": "Energy Recharge +20%",
+    "four_piece_bonus": "Increases Elemental Burst DMG by 25% of Energy Recharge. A maximum of 75% bonus DMG can be obtained in this way."
+  },
+  {
+    "id": "Gambler",
+    "name": "Gambler",
+    "icon": "https://rerollcdn.com/GENSHIN/Gear/gambler.png",
+    "max_rarity": 4,
+    "two_piece_bonus": "Elemental Skill DMG increased by 20%",
+    "four_piece_bonus": "Defeating an enemy has 100% chance to remove Elemental Skill CD. Can only occur once every 15s."
+  },
+  {
+    "id": "Gladiator's Finale",
+    "name": "Gladiator's Finale",
+    "icon": "https://rerollcdn.com/GENSHIN/Gear/gladiator's_finale.png",
+    "max_rarity": 5,
+    "two_piece_bonus": "ATK +18%",
+    "four_piece_bonus": "If the wielder of this artifact set uses a Sword, Claymore or Polearm, increases their Normal Attack DMG by 35%."
+  },
+  {
+    "id": "Heart of Depth",
+    "name": "Heart of Depth",
+    "icon": "https://rerollcdn.com/GENSHIN/Gear/heart_of_depth.png",
+    "max_rarity": 5,
+    "two_piece_bonus": "Hydro DMG Bonus +15%",
+    "four_piece_bonus": "After using Elemental Skill, increases Normal Attack and Charged Attack DMG by 30% for 15s."
+  },
+  {
+    "id": "Husk of Opulent Dreams",
+    "name": "Husk of Opulent Dreams",
+    "icon": "https://rerollcdn.com/GENSHIN/Gear/husk_of_opulent_dreams.png",
+    "max_rarity": 5,
+    "two_piece_bonus": "DEF +30%",
+    "four_piece_bonus": "A character equipped with this Artifact set will obtain the Curiosity effect in the following conditions: When on the field, the character gains 1 stack after hitting an opponent with a Geo attack, triggering a maximum of once every 0.3s. When off the field, the character gains 1 stack every 3s. Curiosity can stack up to 4 times, each providing 6% DEF and a 6% Geo DMG Bonus. When 6 seconds pass without gaining a Curiosity stack, 1 stack is lost."
+  },
+  {
+    "id": "Instructor",
+    "name": "Instructor",
+    "icon": "https://rerollcdn.com/GENSHIN/Gear/instructor.png",
+    "max_rarity": 4,
+    "two_piece_bonus": "Increases Elemental Mastery by 80.",
+    "four_piece_bonus": "After using Elemental Skill, increases all party members' Elemental Mastery by 120 for 8s."
+  },
+  {
+    "id": "Lavawalker",
+    "name": "Lavawalker",
+    "icon": "https://rerollcdn.com/GENSHIN/Gear/lavawalker.png",
+    "max_rarity": 5,
+    "two_piece_bonus": "Pyro RES increased by 40%",
+    "four_piece_bonus": "Increases DMG against enemies that are Burning or affected by Pyro by 35%."
+  },
+  {
+    "id": "Lucky Dog",
+    "name": "Lucky Dog",
+    "icon": "https://rerollcdn.com/GENSHIN/Gear/lucky_dog.png",
+    "max_rarity": 3,
+    "two_piece_bonus": "DEF increased by 100.",
+    "four_piece_bonus": "Picking up Mora restores 300 HP."
+  },
+  {
+    "id": "Maiden Beloved",
+    "name": "Maiden Beloved",
+    "icon": "https://rerollcdn.com/GENSHIN/Gear/maiden_beloved.png",
+    "max_rarity": 5,
+    "two_piece_bonus": "Character Healing Effectiveness +15%",
+    "four_piece_bonus": "Using an Elemental Skill or Burst increases healing received by all party members by 20% for 10s."
+  },
+  {
+    "id": "Martial Artist",
+    "name": "Martial Artist",
+    "icon": "https://rerollcdn.com/GENSHIN/Gear/martial_artist.png",
+    "max_rarity": 4,
+    "two_piece_bonus": "Increases Normal Attack and Charged Attack DMG by 15%.",
+    "four_piece_bonus": "After using Elemental Skill, increases Normal Attack and Charged Attack DMG by 25% for 8s."
+  },
+  {
+    "id": "Noblesse Oblige",
+    "name": "Noblesse Oblige",
+    "icon": "https://rerollcdn.com/GENSHIN/Gear/noblesse_oblige.png",
+    "max_rarity": 5,
+    "two_piece_bonus": "Elemental Burst DMG +20%",
+    "four_piece_bonus": "Using an Elemental Burst increase all party members' ATK by 20% for 12s. This effect cannot stack."
+  },
+  {
+    "id": "Ocean-Hued Clam",
+    "name": "Ocean-Hued Clam",
+    "icon": "https://rerollcdn.com/GENSHIN/Gear/ocean-hued_clam.png",
+    "max_rarity": 5,
+    "two_piece_bonus": "Healing Bonus +15%",
+    "four_piece_bonus": "When the character equipping this artifact set heals a character in the party, a Sea-Dyed Foam will appear for 3 seconds, accumulating the amount of HP recovered from healing (including overflow healing). At the end of the duration, the Sea-Dyed Foam will explode, dealing DMG to nearby opponents based on 90% of the accumulated healing. (This DMG is calculated similarly to Reactions such as Electro-Charged, and Superconduct, but it is not affected by Elemental Mastery, Character Levels, or Reaction DMG Bonuses). Only one Sea-Dyed Foam can be produced every 3.5 seconds. Each Sea-Dyed Foam can accumulate up to 30,000 HP (including overflow healing). There can be no more than one Sea-Dyed Foam active at any given time. This effect can still be triggered even when the character who is using this artifact set is not on the field."
+  },
+  {
+    "id": "Pale Flame",
+    "name": "Pale Flame",
+    "icon": "https://rerollcdn.com/GENSHIN/Gear/pale_flame.png",
+    "max_rarity": 5,
+    "two_piece_bonus": "Physical DMG +25%",
+    "four_piece_bonus": "When an Elemental Skill hits an opponent, ATK is increased by 9% for 7s. This effect stacks up to 2 times and can be triggered once every 0.3s. Once 2 stacks are reached, the 2-set effect is increased by 100%."
+  },
+  {
+    "id": "Resolution of Sojourner",
+    "name": "Resolution of Sojourner",
+    "icon": "https://rerollcdn.com/GENSHIN/Gear/resolution_of_sojourner.png",
+    "max_rarity": 4,
+    "two_piece_bonus": "ATK +18%",
+    "four_piece_bonus": "Increases Charged Attack CRIT Rate by 30%."
+  },
+  {
+    "id": "Retracing Bolide",
+    "name": "Retracing Bolide",
+    "icon": "https://rerollcdn.com/GENSHIN/Gear/retracing_bolide.png",
+    "max_rarity": 5,
+    "two_piece_bonus": "Increases Shield Strength by 35%.",
+    "four_piece_bonus": "While protected by a shield, gain an additional 40% Normal and Charged Attack DMG."
+  },
+  {
+    "id": "Scholar",
+    "name": "Scholar",
+    "icon": "https://rerollcdn.com/GENSHIN/Gear/scholar.png",
+    "max_rarity": 4,
+    "two_piece_bonus": "Energy Recharge +20%",
+    "four_piece_bonus": "Gaining Energy gives 3 Energy to all party members who have a bow or a catalyst equipped. Can only occurs once every 3s."
+  },
+  {
+    "id": "Shimenawa's Reminiscence",
+    "name": "Shimenawa's Reminiscence",
+    "icon": "https://rerollcdn.com/GENSHIN/Gear/shimenawa's_reminiscence.png",
+    "max_rarity": 5,
+    "two_piece_bonus": "ATK +18%",
+    "four_piece_bonus": "When casting an Elemental Skill, if the character has 15 or more Energy, they lose 15 Energy and Normal/Charged/Plunging Attack DMG is increased by 50% for 10s."
+  },
+  {
+    "id": "Tenacity of the Millelith",
+    "name": "Tenacity of the Millelith",
+    "icon": "https://rerollcdn.com/GENSHIN/Gear/tenacity_of_the_millelith.png",
+    "max_rarity": 5,
+    "two_piece_bonus": "HP +20%",
+    "four_piece_bonus": "When an Elemental Skill hits an opponent, the ATK of all nearby party members is increased by 20% and their Shield Strength is increased by 30% for 3s. This effect can be triggered once every 0.5s. This effect can still be triggered even when the character who is using this artifact set is not on the field."
+  },
+  {
+    "id": "The Exile",
+    "name": "The Exile",
+    "icon": "https://rerollcdn.com/GENSHIN/Gear/the_exile.png",
+    "max_rarity": 4,
+    "two_piece_bonus": "Energy Recharge +20%",
+    "four_piece_bonus": "Using an Elemental Burst regenerates 2 Energy for other party members every 2s for 6s. This effect cannot stack."
+  },
+  {
+    "id": "Thundering Fury",
+    "name": "Thundering Fury",
+    "icon": "https://rerollcdn.com/GENSHIN/Gear/thundering_fury.png",
+    "max_rarity": 5,
+    "two_piece_bonus": "Gain a 15% Electro DMG Bonus.",
+    "four_piece_bonus": "Increases damage caused by Overloaded, Electro-Charged, and Superconduct DMG by 40%. Triggering such effects decreases Elemental Skill CD by 1s. Can only occur once every 0.8s."
+  },
+  {
+    "id": "Thundersoother",
+    "name": "Thundersoother",
+    "icon": "https://rerollcdn.com/GENSHIN/Gear/thundersoother.png",
+    "max_rarity": 5,
+    "two_piece_bonus": "Electro RES increased by 40%",
+    "four_piece_bonus": "Increases DMG against enemies affected by Electro by 35%."
+  },
+  {
+    "id": "Tiny Miracle",
+    "name": "Tiny Miracle",
+    "icon": "https://rerollcdn.com/GENSHIN/Gear/tiny_miracle.png",
+    "max_rarity": 4,
+    "two_piece_bonus": "All Elemental RES increased by 20%",
+    "four_piece_bonus": "Incoming elemental DMG increases corresponding Elemental RES by 30% for 10s. Can only occur once every 10s."
+  },
+  {
+    "id": "Traveling Doctor",
+    "name": "Traveling Doctor",
+    "icon": "https://rerollcdn.com/GENSHIN/Gear/traveling_doctor.png",
+    "max_rarity": 3,
+    "two_piece_bonus": "Increases incoming healing by 20%.",
+    "four_piece_bonus": "Using Elemental Burst restores 20% HP."
+  },
+  {
+    "id": "Vermillion Hereafter",
+    "name": "Vermillion Hereafter",
+    "icon": "https://rerollcdn.com/GENSHIN/Gear/vermillion_hereafter.png",
+    "max_rarity": 5,
+    "two_piece_bonus": "ATK +18%",
+    "four_piece_bonus": "After using an Elemental Burst. this character will gain the Nascent Light effect, increasing their ATK by 8% for 16s. When the character's HP decreases, their ATK will further increase by 10%. This increase can occur this way maximum of 4 times. This effect can be triggered once every 0.8s. Nascent Light will be dispelled when the character leaves the field. If an Elemental Burst is used again during the duration of Nascent Light, the original Nascent Light will be dispelled."
+  },
+  {
+    "id": "Viridescent Venerer",
+    "name": "Viridescent Venerer",
+    "icon": "https://rerollcdn.com/GENSHIN/Gear/viridescent_venerer.png",
+    "max_rarity": 5,
+    "two_piece_bonus": "Gain a 15% Anemo DMG Bonus.",
+    "four_piece_bonus": "Increases Swirl DMG by 60%. Decreases opponent's Elemental RES to the element infused in the Swirl by 40% for 10s."
+  },
+  {
+    "id": "Wanderer's Troupe",
+    "name": "Wanderer's Troupe",
+    "icon": "https://rerollcdn.com/GENSHIN/Gear/wanderer's_troupe.png",
+    "max_rarity": 5,
+    "two_piece_bonus": "Elemental Mastery +80",
+    "four_piece_bonus": "Increases Charged Attack DMG by 35% if the character uses a Catalyst or Bow."
+  }
+]

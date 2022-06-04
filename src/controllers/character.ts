@@ -4,10 +4,20 @@ import { ICharacter } from '../interfaces';
 import { findOne } from '../util/getFindOne';
 import { readFile } from '../util/getPathFile';
 
+interface Tier {
+  [key: string]: Array<{
+    name: string;
+    icon: string;
+    designation: string;
+    constellation: string;
+    vision: string;
+  }>;
+}
 export default class CharacterController {
 
   private static classInstance?: CharacterController;
   private path: string = 'characters.json'
+  private pathTier: string = 'tierlist.json'
 
   public static getInstance() {
     if (!this.classInstance) {
@@ -17,7 +27,7 @@ export default class CharacterController {
     return this.classInstance;
   }
 
-  public getCharacters = (req: Request, res: Response, next: NextFunction) => {
+  getCharacters = (req: Request, res: Response) => {
     const vision = req.query.vision as string;
     const { language } = req.params;
 
@@ -40,7 +50,7 @@ export default class CharacterController {
     return res.json(data)
   }
 
-  public getCharacterName = (req: Request, res: Response, next: NextFunction) => {
+  getCharacterName = (req: Request, res: Response) => {
     try {
       const { id, language } = req.params;
       const { characters } = readFile(language, this.path);
@@ -57,7 +67,7 @@ export default class CharacterController {
     }
   }
 
-  public getCharacterByElement = (req: Request, res: Response, next: NextFunction) => {
+  getCharacterByElement = (req: Request, res: Response) => {
     try {
       const { element, language } = req.params;
       const { characters } = readFile(language, this.path);
@@ -76,5 +86,42 @@ export default class CharacterController {
     } catch (err: any) {
       throw new HttpException(500, err);
     }
+  }
+
+  getTierList = (req: Request, res: Response) => {
+    const vision = req.query.vision as string;
+    const { language } = req.params;
+
+    if (vision) {
+
+      const tierlist: Tier = readFile(language, this.pathTier);
+      const keys = Object.keys(tierlist);
+
+      const data = keys.map((key: string) => {
+        const f = tierlist[key].filter((c: any) => c.vision === vision);
+
+        return {
+          [key]: f
+        }
+      })
+
+      const finaldata = data.reduce((acc: any, curr: any) => {
+        return {
+          ...acc,
+          ...curr
+        }
+      }, {})
+      // const tierlistData: Array<{}> = tierlist.filter((c: ICharacter) => findOne(c.vision) === findOne(vision));
+
+      // if (!tierlistData.length) {
+      //   throw new HttpException(404, `Characher with vision ${vision} not found`);
+      // }
+
+      return res.json(finaldata);
+
+    }
+
+    const data = readFile(language, this.pathTier);
+    return res.json(data)
   }
 }

@@ -1,0 +1,364 @@
+{
+  "SS+": [
+    {
+      "name": "Ayaka",
+      "designation": "Main DPS",
+      "constellation": "C0",
+      "vision": "Cryo",
+      "icon": "https://rerollcdn.com/GENSHIN/Characters/Ayaka.png"
+    },
+    {
+      "name": "Bennett",
+      "designation": "Utility",
+      "constellation": "C1",
+      "vision": "Pyro",
+      "icon": "https://rerollcdn.com/GENSHIN/Characters/Bennett.png"
+    },
+    {
+      "name": "Ganyu",
+      "designation": "Main DPS",
+      "constellation": "C0",
+      "vision": "Cryo",
+      "icon": "https://rerollcdn.com/GENSHIN/Characters/Ganyu.png"
+    },
+    {
+      "name": "Hu Tao",
+      "designation": "Main DPS",
+      "constellation": "C1",
+      "vision": "Pyro",
+      "icon": "https://rerollcdn.com/GENSHIN/Characters/Hu%20Tao.png"
+    },
+    {
+      "name": "Kazuha",
+      "designation": "Utility",
+      "constellation": "C0",
+      "vision": "Anemo",
+      "icon": "https://rerollcdn.com/GENSHIN/Characters/Kazuha.png"
+    },
+    {
+      "name": "Raiden",
+      "designation": "Utility",
+      "constellation": "C2",
+      "vision": "Electro",
+      "icon": "https://rerollcdn.com/GENSHIN/Characters/Raiden.png"
+    },
+    {
+      "name": "Xiangling",
+      "designation": "Sub DPS",
+      "constellation": "C4",
+      "vision": "Pyro",
+      "icon": "https://rerollcdn.com/GENSHIN/Characters/Xiangling.png"
+    },
+    {
+      "name": "Xingqiu",
+      "designation": "Sub DPS",
+      "constellation": "C6",
+      "vision": "Hydro",
+      "icon": "https://rerollcdn.com/GENSHIN/Characters/Xingqiu.png"
+    },
+    {
+      "name": "Zhongli",
+      "designation": "Utility",
+      "constellation": "C0",
+      "vision": "Geo",
+      "icon": "https://rerollcdn.com/GENSHIN/Characters/Zhongli.png"
+    }
+  ],
+  "S+": [
+    {
+      "name": "Albedo",
+      "designation": "Sub DPS",
+      "constellation": "C0",
+      "vision": "Geo",
+      "icon": "https://rerollcdn.com/GENSHIN/Characters/Albedo.png"
+    },
+    {
+      "name": "Ayato",
+      "designation": "Main DPS",
+      "constellation": "C0",
+      "vision": "Hydro",
+      "icon": "https://rerollcdn.com/GENSHIN/Characters/Ayato.png"
+    },
+    {
+      "name": "Childe",
+      "designation": "Main DPS",
+      "constellation": "C0",
+      "vision": "Hydro",
+      "icon": "https://rerollcdn.com/GENSHIN/Characters/Childe.png"
+    },
+    {
+      "name": "Diona",
+      "designation": "Utility",
+      "constellation": "C6",
+      "vision": "Cryo",
+      "icon": "https://rerollcdn.com/GENSHIN/Characters/Diona.png"
+    },
+    {
+      "name": "Eula",
+      "designation": "Main DPS",
+      "constellation": "C0",
+      "vision": "Cryo",
+      "icon": "https://rerollcdn.com/GENSHIN/Characters/Eula.png"
+    },
+    {
+      "name": "Gorou",
+      "designation": "Utility",
+      "constellation": "C6",
+      "vision": "Geo",
+      "icon": "https://rerollcdn.com/GENSHIN/Characters/Gorou.png"
+    },
+    {
+      "name": "Itto",
+      "designation": "Main DPS",
+      "constellation": "C0",
+      "vision": "Geo",
+      "icon": "https://rerollcdn.com/GENSHIN/Characters/Itto.png"
+    },
+    {
+      "name": "Kokomi",
+      "designation": "Utility",
+      "constellation": "C0",
+      "vision": "Hydro",
+      "icon": "https://rerollcdn.com/GENSHIN/Characters/Kokomi.png"
+    },
+    {
+      "name": "Mona",
+      "designation": "Utility",
+      "constellation": "C0",
+      "vision": "Hydro",
+      "icon": "https://rerollcdn.com/GENSHIN/Characters/Mona.png"
+    },
+    {
+      "name": "Sara",
+      "designation": "Utility",
+      "constellation": "C6",
+      "vision": "Electro",
+      "icon": "https://rerollcdn.com/GENSHIN/Characters/Sara.png"
+    },
+    {
+      "name": "Shenhe",
+      "designation": "Utility",
+      "constellation": "C0",
+      "vision": "Cryo",
+      "icon": "https://rerollcdn.com/GENSHIN/Characters/Shenhe.png"
+    },
+    {
+      "name": "Sucrose",
+      "designation": "Utility",
+      "constellation": "C6",
+      "vision": "Anemo",
+      "icon": "https://rerollcdn.com/GENSHIN/Characters/Sucrose.png"
+    },
+    {
+      "name": "Venti",
+      "designation": "Sub DPS",
+      "constellation": "C0",
+      "vision": "Anemo",
+      "icon": "https://rerollcdn.com/GENSHIN/Characters/Venti.png"
+    },
+    {
+      "name": "Xiao",
+      "designation": "Main DPS",
+      "constellation": "C0",
+      "vision": "Anemo",
+      "icon": "https://rerollcdn.com/GENSHIN/Characters/Xiao.png"
+    },
+    {
+      "name": "Yoimiya",
+      "designation": "Main DPS",
+      "constellation": "C0",
+      "vision": "Pyro",
+      "icon": "https://rerollcdn.com/GENSHIN/Characters/Yoimiya.png"
+    },
+    {
+      "name": "Yun Jin",
+      "designation": "Utility",
+      "constellation": "C2",
+      "vision": "Geo",
+      "icon": "https://rerollcdn.com/GENSHIN/Characters/Yun%20Jin.png"
+    }
+  ],
+  "S": [
+    {
+      "name": "Beidou",
+      "designation": "Sub DPS",
+      "constellation": "C2",
+      "vision": "Electro",
+      "icon": "https://rerollcdn.com/GENSHIN/Characters/Beidou.png"
+    },
+    {
+      "name": "Diluc",
+      "designation": "Main DPS",
+      "constellation": "C0",
+      "vision": "Pyro",
+      "icon": "https://rerollcdn.com/GENSHIN/Characters/Diluc.png"
+    },
+    {
+      "name": "Fischl",
+      "designation": "Sub DPS",
+      "constellation": "C6",
+      "vision": "Electro",
+      "icon": "https://rerollcdn.com/GENSHIN/Characters/Fischl.png"
+    },
+    {
+      "name": "Jean",
+      "designation": "Utility",
+      "constellation": "C0",
+      "vision": "Anemo",
+      "icon": "https://rerollcdn.com/GENSHIN/Characters/Jean.png"
+    },
+    {
+      "name": "Klee",
+      "designation": "Main DPS",
+      "constellation": "C0",
+      "vision": "Pyro",
+      "icon": "https://rerollcdn.com/GENSHIN/Characters/Klee.png"
+    },
+    {
+      "name": "Rosaria",
+      "designation": "Utility",
+      "constellation": "C6",
+      "vision": "Cryo",
+      "icon": "https://rerollcdn.com/GENSHIN/Characters/Rosaria.png"
+    },
+    {
+      "name": "Yae Miko",
+      "designation": "Sub DPS",
+      "constellation": "C0",
+      "vision": "Electro",
+      "icon": "https://rerollcdn.com/GENSHIN/Characters/Yae%20Miko.png"
+    },
+    {
+      "name": "Yanfei",
+      "designation": "Main DPS",
+      "constellation": "C2",
+      "vision": "Pyro",
+      "icon": "https://rerollcdn.com/GENSHIN/Characters/Yanfei.png"
+    }
+  ],
+  "A": [
+    {
+      "name": "Barbara",
+      "designation": "Utility",
+      "constellation": "C0",
+      "vision": "Hydro",
+      "icon": "https://rerollcdn.com/GENSHIN/Characters/Barbara.png"
+    },
+    {
+      "name": "Chongyun",
+      "designation": "Utility",
+      "constellation": "C2",
+      "vision": "Cryo",
+      "icon": "https://rerollcdn.com/GENSHIN/Characters/Chongyun.png"
+    },
+    {
+      "name": "Keqing",
+      "designation": "Main DPS",
+      "constellation": "C0",
+      "vision": "Electro",
+      "icon": "https://rerollcdn.com/GENSHIN/Characters/Keqing.png"
+    },
+    {
+      "name": "Ningguang",
+      "designation": "Main DPS",
+      "constellation": "C1",
+      "vision": "Geo",
+      "icon": "https://rerollcdn.com/GENSHIN/Characters/Ningguang.png"
+    },
+    {
+      "name": "Noelle",
+      "designation": "Main DPS",
+      "constellation": "C6",
+      "vision": "Geo",
+      "icon": "https://rerollcdn.com/GENSHIN/Characters/Noelle.png"
+    },
+    {
+      "name": "Qiqi",
+      "designation": "Utility",
+      "constellation": "C0",
+      "vision": "Cryo",
+      "icon": "https://rerollcdn.com/GENSHIN/Characters/Qiqi.png"
+    },
+    {
+      "name": "Sayu",
+      "designation": "Utility",
+      "constellation": "C1",
+      "vision": "Anemo",
+      "icon": "https://rerollcdn.com/GENSHIN/Characters/Sayu.png"
+    },
+    {
+      "name": "Traveler (Electro)",
+      "designation": "Utility",
+      "constellation": "C6",
+      "vision": "Electro",
+      "icon": "https://rerollcdn.com/GENSHIN/Characters/Traveler%20(Electro).png"
+    }
+  ],
+  "B": [
+    {
+      "name": "Kaeya",
+      "designation": "Sub DPS",
+      "constellation": "C0",
+      "vision": "Cryo",
+      "icon": "https://rerollcdn.com/GENSHIN/Characters/Kaeya.png"
+    },
+    {
+      "name": "Lisa",
+      "designation": "Sub DPS",
+      "constellation": "C0",
+      "vision": "Electro",
+      "icon": "https://rerollcdn.com/GENSHIN/Characters/Lisa.png"
+    },
+    {
+      "name": "Razor",
+      "designation": "Main DPS",
+      "constellation": "C4",
+      "vision": "Electro",
+      "icon": "https://rerollcdn.com/GENSHIN/Characters/Razor.png"
+    },
+    {
+      "name": "Thoma",
+      "designation": "Utility",
+      "constellation": "C6",
+      "vision": "Pyro",
+      "icon": "https://rerollcdn.com/GENSHIN/Characters/Thoma.png"
+    },
+    {
+      "name": "Xinyan",
+      "designation": "Utility",
+      "constellation": "C4",
+      "vision": "Pyro",
+      "icon": "https://rerollcdn.com/GENSHIN/Characters/Xinyan.png"
+    }
+  ],
+  "C": [
+    {
+      "name": "Aloy",
+      "designation": "Sub DPS",
+      "constellation": "C0",
+      "vision": "Cryo",
+      "icon": "https://rerollcdn.com/GENSHIN/Characters/Aloy.png"
+    },
+    {
+      "name": "Amber",
+      "designation": "Sub DPS",
+      "constellation": "C0",
+      "vision": "Pyro",
+      "icon": "https://rerollcdn.com/GENSHIN/Characters/Amber.png"
+    },
+    {
+      "name": "Traveler (Anemo)",
+      "designation": "Sub DPS",
+      "constellation": "C6",
+      "vision": "Anemo",
+      "icon": "https://rerollcdn.com/GENSHIN/Characters/Traveler%20(Anemo).png"
+    },
+    {
+      "name": "Traveler (Geo)",
+      "designation": "Sub DPS",
+      "constellation": "C6",
+      "vision": "Geo",
+      "icon": "https://rerollcdn.com/GENSHIN/Characters/Traveler%20(Geo).png"
+    }
+  ]
+}

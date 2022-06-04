@@ -20,9 +20,21 @@ export default class WeaponsController {
   public getWeapons = (req: Request, res: Response, next: NextFunction) => {
     try {
       const { language } = req.params
-      var data = readFile(language, this.path)
+      const { type } = req.query;
+      const { weapons } = readFile(language, this.path)
+      console.log(type)
+      if (type) {
+        const weapon: Array<{}> = weapons.filter((w: IWeapon) => w.type === type);
+        console.log(type)
+        if (!weapon.length) {
+          throw new HttpException(404, `No weapon with ${type} name found.`);
+        }
 
-      return res.json(data)
+        return res.json(weapon);
+      }
+
+
+      return res.json(weapons)
     } catch (err: any) {
       throw new HttpException(404, err.message)
     }
@@ -30,14 +42,15 @@ export default class WeaponsController {
 
   public getWeaponsName = (req: Request, res: Response, next: NextFunction) => {
     try {
-      const { name, language } = req.params;
+      const { language } = req.params;
+      const { type } = req.query;
       const { weapons } = readFile(language, this.path)
 
       if (weapons) {
-        const weapon: Array<{}> = weapons.filter((w: IWeapon) => findOne(w.name) === findOne(name));
-
+        const weapon: Array<{}> = weapons.filter((w: IWeapon) => w.type === type);
+        console.log(type)
         if (!weapon.length) {
-          throw new HttpException(404, `No weapon with ${name} name found.`);
+          throw new HttpException(404, `No weapon with ${type} name found.`);
         }
 
         return res.json(weapon);
