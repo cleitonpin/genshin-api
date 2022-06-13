@@ -25,7 +25,7 @@ export default function authMiddleware(
       })
     }
     try {
-      const data = jwt.verify(token, process.env.APP_SECRET);
+      const data = jwt.verify(token, process.env.JWT_SECRET);
 
       const { id } = data as ITokenPayload;
 
@@ -33,6 +33,7 @@ export default function authMiddleware(
 
       return next();
     } catch (error) {
+      console.log(error)
       return res.status(401).json({
         message: 'Token invalid!'
       });

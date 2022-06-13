@@ -19,10 +19,12 @@ export interface ICharacter {
   description: string;
   vision: string;
   weapon: string;
-  rariry: number;
+  rarity: number;
   skillTalents: Array<object>;
   passiveTalents: Array<object>;
   constellations: Array<object>;
+  upgrades: Array<object>;
+  icon: string;
 }
 
 export interface IWeapon {
