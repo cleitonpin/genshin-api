@@ -2,8 +2,6 @@ import { IUser, User } from '../models/User'
 import bcrypt from 'bcryptjs'
 import HttpException from '../errors/HttpException';
 import jwt from 'jsonwebtoken'
-import { uploadImageAsync } from '../util';
-import path from 'path';
 
 export interface IUserService {
 	getUser(id: string): Promise<IUser | null>;
@@ -11,7 +9,7 @@ export interface IUserService {
 	create(user: IUser): Promise<void>;
 	login(email: string, password: string): Promise<IUser | null>;
 	comparePassword(password: string, hash: string): Promise<boolean>;
-	generateToken(id: string): string;
+	generateToken(id: string | undefined): string;
 	update(id: string, user: IUser): Promise<void>;
 }
 
@@ -54,7 +52,7 @@ class UserService implements IUserService {
 		return await bcrypt.compare(password, hash);
 	}
 
-	generateToken(id: string): string {
+	generateToken(id: string | undefined): string {
 		return jwt.sign({ id }, process.env.JWT_SECRET, {
 			expiresIn: '7d' // process.env.JWT_EXPIRES_IN
 		});
