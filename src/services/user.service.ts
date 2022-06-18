@@ -39,7 +39,6 @@ class UserService implements IUserService {
 	}
 
 	public async login(email: string, password: string): Promise<IUser | null> {
-		console.log(email, password);
 		const user = await User.findOne({ email }).lean();
 		if (!user) return null;
 
