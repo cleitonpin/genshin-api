@@ -22,5 +22,5 @@ app.use('/v1', router);
 app.use(errorMiddleware);
 
 app.listen(PORT, () => {
-	console.log(`⚡️ [Server]: running at http://localhost:${PORT}`);
+	console.log(`⚡️ [Server]: running atrr http://localhost:${PORT}`);
 })
