@@ -2,7 +2,7 @@ import { Request, Response } from 'express';
 import HttpException from '../errors/HttpException';
 import { ICharacter } from '../interfaces';
 import { Character } from '../models/Character';
-import { getRedis, setRedis } from '../redisConfig';
+// import { getRedis, setRedis } from '../redisConfig';
 import { findOne } from '../util/getFindOne';
 import { readFile } from '../util/getPathFile';
 
@@ -31,16 +31,16 @@ export default class CharacterController {
 
 	getCharacters = async (req: Request, res: Response) => {
 		const vision = req.query.vision as string;
-		const dataRedis = await getRedis("characters");
+		// const dataRedis = await getRedis("characters");
 
-		if (dataRedis && !vision) {
-			return res.json({ characters: JSON.parse(dataRedis) });
-		}
+		// if (dataRedis && !vision) {
+		// 	return res.json({ characters: JSON.parse(dataRedis) });
+		// }
 
 		const filter = vision ? { vision } : {};
 		const characters = await Character.find(filter).lean();
 
-		if (!dataRedis) await setRedis("characters", JSON.stringify(characters));
+		// if (!dataRedis) await setRedis("characters", JSON.stringify(characters));
 
 		return res.json({ characters });
 	}
